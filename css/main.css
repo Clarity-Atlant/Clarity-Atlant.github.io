@@ -202,8 +202,8 @@
   text-decoration: none;
 }
 .intentions__item:hover {
-  -webkit-transform: scale(1.01);
-          transform: scale(1.01);
+  -webkit-transform: scale(1.005);
+          transform: scale(1.005);
 }
 .intentions__item:not(:first-child) {
   margin-left: 10px;
