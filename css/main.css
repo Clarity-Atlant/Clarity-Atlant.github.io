@@ -267,7 +267,6 @@
   background-color: #fff;
   border-radius: 50px;
   margin: 150px auto 0;
-  width: 1380px;
   height: 779px;
 }
 .how-it-works__headline {
@@ -348,7 +347,6 @@
 }
 
 .main-description {
-  width: 1380px;
   height: 1585px;
   background-color: #fff;
   border-radius: 50px;
@@ -373,9 +371,9 @@
   margin: 0 auto;
 }
 .main-description__list-item {
-  padding: 37px;
-  -ms-flex-preferred-size: 27%;
-      flex-basis: 27%;
+  padding: 41px;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
 }
 .main-description__technologies-inner {
   display: -webkit-box;
@@ -442,6 +440,11 @@
   padding: 10px;
   border: 1px solid #1E1E1E;
   border-radius: 35px;
+}
+.our-rates__item-inner-price-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .our-rates__item-inner-price-number {
   font-family: Manrope;
