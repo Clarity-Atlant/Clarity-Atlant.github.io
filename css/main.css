@@ -290,9 +290,8 @@
 .how-it-works__list-item:not(:first-child) {
   margin-left: 50px;
 }
-.how-it-works__list-item img {
-  width: 70px;
-  height: 70px;
+.how-it-works__list-item:first-child img {
+  margin-bottom: 10px;
 }
 
 .possibilities__headline {
@@ -318,8 +317,8 @@
 }
 .possibilities__list-item {
   color: #1E1E1E;
-  width: 390px;
-  height: 150px;
+  width: 350px;
+  height: 110px;
   margin-top: 10px;
   background-color: #fff;
   border-radius: 35px;
@@ -338,6 +337,9 @@
 }
 .possibilities__list-item--active:visited {
   color: #fff;
+}
+.possibilities__list-item-inner {
+  width: 250px;
 }
 .possibilities__image {
   -ms-flex-preferred-size: 50%;
@@ -368,10 +370,12 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding: 0 100px;
+  margin: 0 auto;
 }
 .main-description__list-item {
-  -ms-flex-preferred-size: 33%;
-      flex-basis: 33%;
+  padding: 37px;
+  -ms-flex-preferred-size: 27%;
+      flex-basis: 27%;
 }
 .main-description__technologies-inner {
   display: -webkit-box;
