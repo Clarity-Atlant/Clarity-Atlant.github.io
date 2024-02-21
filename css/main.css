@@ -198,9 +198,12 @@
   display: -ms-flexbox;
   display: flex;
 }
+.intentions__item {
+  text-decoration: none;
+}
 .intentions__item:hover {
-  -webkit-box-shadow: 0px 0px 8px 8px rgba(34, 60, 80, 0.2);
-          box-shadow: 0px 0px 8px 8px rgba(34, 60, 80, 0.2);
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 .intentions__item:not(:first-child) {
   margin-left: 10px;
