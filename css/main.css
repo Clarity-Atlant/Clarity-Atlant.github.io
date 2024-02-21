@@ -135,6 +135,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 30px 0 150px;
 }
 .cards__item {
   display: -webkit-box;
@@ -149,6 +150,8 @@
   height: 323px;
   border-radius: 35px;
   background-color: #fff;
+}
+.cards__item:not(:first-child) {
   margin-left: 10px;
 }
 .cards__item-price {
@@ -195,7 +198,7 @@
   display: -ms-flexbox;
   display: flex;
 }
-.intentions__item {
+.intentions__item:not(:first-child) {
   margin-left: 10px;
 }
 .intentions__item-illustration {
