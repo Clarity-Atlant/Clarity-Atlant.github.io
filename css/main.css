@@ -353,7 +353,7 @@
 }
 .main-description__headline {
   width: 524px;
-  padding: 100px 0 0 95px;
+  padding: 100px 0 0 130px;
   font-size: 47px;
   font-weight: 700;
   line-height: 54px;
@@ -367,11 +367,14 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 0 50px;
   margin: 0 auto;
 }
 .main-description__list-item {
-  padding: 41px;
+  padding: 25px;
   -ms-flex-preferred-size: 25%;
       flex-basis: 25%;
 }
