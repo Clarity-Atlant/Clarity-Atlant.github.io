@@ -375,8 +375,8 @@
 }
 .main-description__list-item {
   padding: 25px;
-  -ms-flex-preferred-size: 25%;
-      flex-basis: 25%;
+  -ms-flex-preferred-size: 26%;
+      flex-basis: 26%;
 }
 .main-description__technologies-inner {
   display: -webkit-box;
