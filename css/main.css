@@ -29,6 +29,14 @@
 .header__menu-item {
   margin-left: 30px;
 }
+.header__menu-item a {
+  text-decoration: none;
+  color: #1E1E1E;
+}
+.header__menu-item a:hover {
+  text-decoration: underline;
+  color: #5D5D5D;
+}
 .header__logo {
   height: 32px;
   margin-left: 29px;
@@ -41,6 +49,10 @@
 }
 .header__buttons-item {
   margin-left: 16px;
+  color: #1E1E1E;
+}
+.header__buttons-item:hover {
+  text-decoration: underline;
 }
 
 .button {
@@ -60,6 +72,9 @@
   margin-right: 29px;
   width: 139px;
   height: 40px;
+}
+.button--green:hover {
+  color: #eee;
 }
 
 .promo {

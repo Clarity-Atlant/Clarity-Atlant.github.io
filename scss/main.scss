@@ -18,6 +18,14 @@
         list-style-type: none;
         &-item {
             margin-left: 30px;
+            a {
+                text-decoration: none;
+                color: #1E1E1E;
+                &:hover {
+                    text-decoration: underline;
+                    color: #5D5D5D;
+                }
+            }
         }
     }
     &__logo {
@@ -29,6 +37,10 @@
         margin-left: 104px;
         &-item {
             margin-left: 16px;
+            color: #1E1E1E;
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 }
@@ -48,6 +60,9 @@
         margin-right: 29px;
         width: 139px;
         height: 40px;
+        &:hover {
+            color: #eee;
+        }
     }
 }
 .promo {
