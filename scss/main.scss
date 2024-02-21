@@ -244,6 +244,9 @@
         padding: 40px 95px;
         &-item {
             flex-basis: 33%;
+            &:not(:first-child) {
+                margin-left: 50px;
+            }
             img {
                 width: 70px;
                 height: 70px;
@@ -266,6 +269,7 @@
         // flex-basis: 50%;
         margin-top: 50px;
         &-item {
+            color: #1E1E1E;
             width: 390px;
             height: 150px;
             margin-top: 10px;
@@ -276,9 +280,15 @@
             line-height: 20px;
             padding: 20px;
             text-decoration: none;
+            &:visited {
+                color: #1E1E1E;
+            }
             &--active {
                 background-color: #0daa61;
                 color: #fff;
+                &:visited {
+                    color: #fff;
+                }
             }
         }
     }
@@ -389,7 +399,7 @@
     }
 }
 .how-to-start {
-    width: 100%;
+    // width: 100%;
     height: 1127px;
     background-color: #fff;
     padding: 100px;

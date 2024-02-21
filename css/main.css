@@ -287,6 +287,9 @@
   -ms-flex-preferred-size: 33%;
       flex-basis: 33%;
 }
+.how-it-works__list-item:not(:first-child) {
+  margin-left: 50px;
+}
 .how-it-works__list-item img {
   width: 70px;
   height: 70px;
@@ -314,6 +317,7 @@
   margin-top: 50px;
 }
 .possibilities__list-item {
+  color: #1E1E1E;
   width: 390px;
   height: 150px;
   margin-top: 10px;
@@ -325,8 +329,14 @@
   padding: 20px;
   text-decoration: none;
 }
+.possibilities__list-item:visited {
+  color: #1E1E1E;
+}
 .possibilities__list-item--active {
   background-color: #0daa61;
+  color: #fff;
+}
+.possibilities__list-item--active:visited {
   color: #fff;
 }
 .possibilities__image {
@@ -461,7 +471,6 @@
 }
 
 .how-to-start {
-  width: 100%;
   height: 1127px;
   background-color: #fff;
   padding: 100px;
