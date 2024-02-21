@@ -412,6 +412,9 @@
   font-weight: 600;
   line-height: 25px;
 }
+.main-description__technologies-description-button:hover {
+  color: #eee;
+}
 .main-description__technologies-description-list-item {
   padding: 28px 0;
   border-top: 1px solid #000;
@@ -433,15 +436,14 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 40px;
+  padding: 40px 0;
 }
 .our-rates__item {
-  width: 300px;
+  width: 350px;
   height: 640px;
   background-color: #fff;
   border-radius: 35px;
   padding: 30px;
-  margin-right: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -449,6 +451,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+.our-rates__item:not(:last-child) {
+  margin-right: 10px;
 }
 .our-rates__item-inner {
   -webkit-box-flex: 1;
@@ -478,9 +483,9 @@
   color: #1E1E1E;
 }
 .our-rates__item-inner-price-per-month {
-  margin-top: -10px;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+  margin-top: 15px;
+  -ms-flex-item-align: center;
+      align-self: center;
   font-family: Manrope;
   font-size: 29px;
   font-weight: 700;
@@ -519,16 +524,6 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
-.how-to-start__left, .how-to-start__right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 30px;
-}
 .how-to-start__center {
   position: relative;
 }
@@ -560,7 +555,7 @@
   display: flex;
 }
 .how-to-start__item:not(:last-child) {
-  margin-bottom: 274px;
+  margin-bottom: 325px;
 }
 .how-to-start__item-inner {
   margin-left: 15px;
@@ -582,6 +577,29 @@
   font-size: 16px;
   font-weight: 700;
   line-height: 23px;
+}
+.how-to-start__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 30px 30px;
+}
+.how-to-start__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+}
+.how-to-start__right-item--first {
+  margin: 180px 0 200px;
 }
 
 .subscription {

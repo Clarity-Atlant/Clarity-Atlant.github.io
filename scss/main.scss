@@ -354,6 +354,9 @@
                 border-radius: 32px;
                 font-weight: 600;
                 line-height: 25px;
+                &:hover {
+                    color: #eee;
+                }
             }
             &-list {
                 &-item {
@@ -377,17 +380,19 @@
 }
 .our-rates {
     display: flex;
-    padding: 40px;
+    padding: 40px 0;
     &__item {
-        width: 300px;
+        width: 350px;
         height: 640px;
         background-color: #fff;
         border-radius: 35px;
         padding: 30px;
         // flex-basis: 33%;
-        margin-right: 10px;
         display: flex;
         flex-direction: column;
+        &:not(:last-child) {
+            margin-right: 10px;
+        }
         &-inner {
             flex: 1 1 auto;
             &-price {
@@ -408,8 +413,8 @@
                     color: #1E1E1E;
                 }
                 &-per-month {
-                    margin-top: -10px;
-                    align-self: flex-end;
+                    margin-top: 15px;
+                    align-self: center;
                     font-family: Manrope;
                     font-size: 29px;
                     font-weight: 700;
@@ -447,11 +452,6 @@
         display: flex;
         justify-content: center;
     }
-    &__left, &__right {
-        display: flex;
-        flex-direction: column;
-        padding: 30px;
-    }
     &__center {
         position: relative;
     }
@@ -480,7 +480,7 @@
     &__item {
         display: flex;
         &:not(:last-child) {
-            margin-bottom: 274px;
+            margin-bottom: 325px;
         }
         &-inner {
             margin-left: 15px;
@@ -502,6 +502,19 @@
             font-size: 16px;
             font-weight: 700;
             line-height: 23px;
+        }
+    }
+    &__left {
+        display: flex;
+        flex-direction: column;
+        padding: 0 30px 30px;
+    }
+    &__right {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        &-item--first {
+            margin: 180px 0 200px;
         }
     }
 }
