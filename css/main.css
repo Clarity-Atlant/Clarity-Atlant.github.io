@@ -649,8 +649,7 @@ a {
 .subscription__form-text-input {
   color: #fff;
   padding: 15px;
-  background-color: #1E1E1E;
-  opacity: 15%;
+  background-color: rgba(30, 30, 30, 0.15);
   width: 590px;
   height: 20px;
   border-radius: 53px;
