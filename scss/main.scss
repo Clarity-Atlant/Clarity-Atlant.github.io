@@ -558,8 +558,12 @@ a {
             background-color: rgba(30, 30, 30, 0.15);
             width: 590px;
             height: 20px;
+            border: none !important;
             border-radius: 53px;
             margin-top: 15px;
+        }
+        &-text-input:focus {
+            outline: 1px solid #fff;
         }
         &-text-input::placeholder {
             color: #fff;
@@ -602,6 +606,7 @@ a {
             line-height: 19.12px;
             border-radius: 53px;
             margin-top: 15px;
+            border: none !important;
             &:hover {
                 background-color: #6E6E73;
             }
