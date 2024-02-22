@@ -2,6 +2,10 @@
   font-family: Manrope;
 }
 
+a {
+  color: #1E1E1E;
+}
+
 .wrapper {
   overflow: hidden;
   padding-top: 20px;
@@ -312,6 +316,7 @@
   margin-top: 50px;
 }
 .possibilities__list-item {
+  cursor: pointer;
   color: #1E1E1E;
   width: 350px;
   height: 110px;
@@ -678,7 +683,7 @@
   position: relative;
 }
 .subscription__form-privacy-policy-link {
-  color: #fff;
+  color: #fff !important;
   padding-bottom: 1px;
   border-bottom: 1px solid #fff;
   text-decoration: none;
@@ -772,6 +777,7 @@
   color: #1E1E1E !important;
   -webkit-text-decoration-color: #1E1E1E !important;
           text-decoration-color: #1E1E1E !important;
+  outline-color: #1E1E1E !important;
 }
 .footer__menu-list-item {
   color: #1E1E1E !important;

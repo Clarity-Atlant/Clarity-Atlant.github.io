@@ -160,10 +160,10 @@
                 <h2 class="possibilities__headline">Наши возможности</h2>
                 <div class="possibilities__inner">
                     <div class="possibilities__list">
-                        <a href="#" class="possibilities__list-item possibilities__list-item--active"><div class="possibilities__list-item-inner">Актуальное состояние вашего агропроизводства на одном экране</div></a>
-                        <a href="#" class="possibilities__list-item"><div class="possibilities__list-item-inner">Планирование полевых работ</div></a>
-                        <a href="#" class="possibilities__list-item"><div class="possibilities__list-item-inner">Мониторинг и прогноз</div></a>
-                        <a href="#" class="possibilities__list-item"><div class="possibilities__list-item-inner">Программирование урожайности</div></a>
+                        <div class="possibilities__list-item possibilities__list-item--active"><div class="possibilities__list-item-inner">Актуальное состояние вашего агропроизводства на одном экране</div></div>
+                        <div class="possibilities__list-item"><div class="possibilities__list-item-inner">Планирование полевых работ</div></div>
+                        <div class="possibilities__list-item"><div class="possibilities__list-item-inner">Мониторинг и прогноз</div></div>
+                        <div class="possibilities__list-item"><div class="possibilities__list-item-inner">Программирование урожайности</div></div>
                     </div>
                     <div class="possibilities__image">
                         <img src="img/possibilities.png" alt="#">
@@ -394,7 +394,7 @@
                         </div>
                     </div>
                     <div class="footer__bottom">
-                        <div class="footer__copyright">© Умножай Урожай 2024</div>
+                        <div class="footer__copyright">© Умножай Урожай <script>document.write(new Date().getFullYear())</script></div>
                         <a href="#" class="footer__menu-list-privacy-policy">Политика конфиденциальности</a>
                         <a href="https://dsml.ru" class="footer__contacts-creator" target="_blank">Сделано в DSML</a>
                     </div>
@@ -402,5 +402,7 @@
             </div>
         </div>
     </div>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

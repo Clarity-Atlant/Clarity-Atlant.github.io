@@ -1,6 +1,9 @@
 * {
     font-family: Manrope;
 }
+a {
+    color: #1E1E1E;
+}
 .wrapper {
     overflow: hidden;
     padding-top: 20px;
@@ -269,6 +272,7 @@
         // flex-basis: 50%;
         margin-top: 50px;
         &-item {
+            cursor: pointer;
             color: #1E1E1E;
             width: 350px;
             height: 110px;
@@ -564,7 +568,7 @@
         &-privacy-policy {
             position: relative;
             &-link {
-                color: #fff;
+                color: #fff !important;
                 padding-bottom: 1px;
                 border-bottom: 1px solid #fff;
                 text-decoration: none;
@@ -633,6 +637,7 @@
             margin: 0;
             color: #1E1E1E !important;
             text-decoration-color: #1E1E1E !important;
+            outline-color: #1E1E1E !important;
             &-item {
                 &:not(:first-child) {
                     margin-top: 15px;
