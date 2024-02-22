@@ -746,7 +746,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  margin: 70px 0 0 300px;
+  margin: 70px 0 0 175px;
 }
 .footer__left {
   display: -webkit-box;
@@ -756,7 +756,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-left: 125px;
 }
 .footer__logo {
   padding-top: 43px;
