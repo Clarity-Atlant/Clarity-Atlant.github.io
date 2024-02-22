@@ -602,9 +602,18 @@
 }
 .footer {
     display: flex;
-    height: 282px;
-    background-color: #fff;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    &__top {
+        display: flex;
+    }
+    &__bottom {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
     &__left {
         display: flex;
         flex-direction: column;
@@ -618,8 +627,10 @@
         display: flex;
         margin: 40px 0 0 182px;
         &-list {
+            display: flex;
+            flex-direction: column;
             list-style-type: none;
-            margin: 0 auto auto 44px;
+            margin: 0;
             color: #1E1E1E !important;
             text-decoration-color: #1E1E1E !important;
             &-item {
@@ -633,6 +644,13 @@
                 a:visited {
                     color: #1E1E1E !important;
                 }
+            }
+            &-left {
+                flex: 1 1 auto;
+            }
+            &-privacy-policy {
+                margin-left: 75px;
+                color: #1E1E1E;
             }
         }
     }
