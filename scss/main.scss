@@ -605,18 +605,15 @@
     }
 }
 .footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: #fff;
     &__top {
         display: flex;
+        justify-content: space-between;
     }
     &__bottom {
         display: flex;
         width: 100%;
-        margin: 70px 0 0 175px;
+        margin-top: 70px;
     }
     &__left {
         display: flex;
@@ -655,7 +652,7 @@
                 flex: 1 1 auto;
             }
             &-privacy-policy {
-                margin-left: 103px;
+                margin-left: 168px;
                 color: #1E1E1E;
             }
         }
@@ -693,7 +690,7 @@
             }
         }
         &-creator {
-            margin-left: 364px;
+            margin-left: 453px;
             text-decoration: underline;
             &:visited {
                 color: #1E1E1E;
