@@ -638,7 +638,7 @@
     }
     &__icons {
         display: flex;
-        margin: 53px 0 0 76px;
+        margin: 40px 0 0 76px;
         &-item {
             width: 30px;
             height: 30px;
@@ -654,7 +654,9 @@
             flex-direction: column;
             flex: 1 1 auto;
             &-item {
-                margin-top: 15px;
+                &:not(:first-child) {
+                    margin-top: 15px;
+                }
                 text-decoration: none;
                 font-size: 16px;
                 font-weight: 700;
