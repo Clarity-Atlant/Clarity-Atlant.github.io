@@ -3,6 +3,7 @@
 }
 
 .wrapper {
+  overflow: hidden;
   padding-top: 20px;
   background-color: #EEEDEF;
 }
@@ -72,6 +73,10 @@
 }
 .button--green:hover {
   color: #eee;
+}
+.button:hover {
+  background-color: #1E8702;
+  color: #fff;
 }
 
 .promo {
@@ -672,18 +677,14 @@
   margin: 10px 0 0 20px;
 }
 .subscription__form-submit-button {
+  cursor: pointer;
   color: #fff;
-  padding: 15px;
   background-color: #1E1E1E;
-  opacity: 15%;
   width: 290px;
   height: 50px;
   line-height: 19.12px;
   border-radius: 53px;
   margin-top: 15px;
-}
-.subscription__form-submit-button {
-  color: #fff;
 }
 .subscription__inner {
   display: -webkit-box;
@@ -727,16 +728,19 @@
 .footer__menu-list {
   list-style-type: none;
   margin-left: 44px;
+  color: #1E1E1E !important;
+  -webkit-text-decoration-color: #1E1E1E !important;
+          text-decoration-color: #1E1E1E !important;
 }
 .footer__menu-list-item {
   margin-top: 15px;
-  color: #1E1E1E;
+  color: #1E1E1E !important;
 }
 .footer__menu-list-item a {
   text-decoration: none;
 }
 .footer__menu-list-item a:visited {
-  color: #1E1E1E;
+  color: #1E1E1E !important;
 }
 .footer__icons {
   display: -webkit-box;

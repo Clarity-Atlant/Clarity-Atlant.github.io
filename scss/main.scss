@@ -2,6 +2,7 @@
     font-family: Manrope;
 }
 .wrapper {
+    overflow: hidden;
     padding-top: 20px;
     background-color: #EEEDEF;
 }
@@ -60,6 +61,10 @@
         &:hover {
             color: #eee;
         }
+    }
+    &:hover {
+        background-color: #1E8702;
+        color: #fff;
     }
 }
 .promo {
@@ -559,18 +564,15 @@
             margin: 10px 0 0 20px;
         }
         &-submit-button {
+            cursor: pointer;
             color: #fff;
-            padding: 15px;
             background-color: #1E1E1E;
-            opacity: 15%;
+            // opacity: 15%;
             width: 290px;
             height: 50px;
             line-height: 19.12px;
             border-radius: 53px;
             margin-top: 15px;
-        }
-        &-submit-button {
-            color: #fff;
         }
     }
     &__inner {
@@ -598,14 +600,16 @@
         &-list {
             list-style-type: none;
             margin-left: 44px;
+            color: #1E1E1E !important;
+            text-decoration-color: #1E1E1E !important;
             &-item {
                 margin-top: 15px;
-                color: #1E1E1E;
+                color: #1E1E1E !important;
                 a {
                     text-decoration: none;
                 }
                 a:visited {
-                    color: #1E1E1E;
+                    color: #1E1E1E !important;
                 }
             }
         }
