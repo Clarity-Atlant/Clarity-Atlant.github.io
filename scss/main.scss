@@ -300,8 +300,13 @@ a {
         }
     }
     &__image {
+        width: 838px;
+        display: none;
         flex-basis: 50%;
         margin: 70px 0 0 60px;
+        &--active {
+            display: block;
+        }
     }
 }
 .main-description {

@@ -343,9 +343,14 @@ a {
   width: 250px;
 }
 .possibilities__image {
+  width: 838px;
+  display: none;
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   margin: 70px 0 0 60px;
+}
+.possibilities__image--active {
+  display: block;
 }
 
 .main-description {
