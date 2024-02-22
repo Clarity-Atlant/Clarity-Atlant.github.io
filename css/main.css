@@ -674,6 +674,9 @@
 }
 .subscription__form-privacy-policy-link {
   color: #fff;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
 }
 .subscription__form-privacy-policy-checkbox {
   position: absolute;
@@ -746,14 +749,16 @@
 }
 .footer__menu-list {
   list-style-type: none;
-  margin-left: 44px;
+  margin: 0 auto auto 44px;
   color: #1E1E1E !important;
   -webkit-text-decoration-color: #1E1E1E !important;
           text-decoration-color: #1E1E1E !important;
 }
 .footer__menu-list-item {
-  margin-top: 15px;
   color: #1E1E1E !important;
+}
+.footer__menu-list-item:not(:first-child) {
+  margin-top: 15px;
 }
 .footer__menu-list-item a {
   text-decoration: none;

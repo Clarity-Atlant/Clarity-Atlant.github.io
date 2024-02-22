@@ -561,6 +561,9 @@
             position: relative;
             &-link {
                 color: #fff;
+                padding-bottom: 1px;
+                border-bottom: 1px solid #fff;
+                text-decoration: none;
             }
             &-checkbox {
                 position: absolute;
@@ -616,11 +619,13 @@
         margin: 40px 0 0 182px;
         &-list {
             list-style-type: none;
-            margin-left: 44px;
+            margin: 0 auto auto 44px;
             color: #1E1E1E !important;
             text-decoration-color: #1E1E1E !important;
             &-item {
-                margin-top: 15px;
+                &:not(:first-child) {
+                    margin-top: 15px;
+                }
                 color: #1E1E1E !important;
                 a {
                     text-decoration: none;
