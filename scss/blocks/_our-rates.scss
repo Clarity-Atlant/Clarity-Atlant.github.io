@@ -1,0 +1,63 @@
+.our-rates {
+    display: flex;
+    padding: 40px 0;
+    &__item {
+        width: 350px;
+        height: 640px;
+        background-color: #fff;
+        border-radius: 35px;
+        padding: 30px;
+        // flex-basis: 33%;
+        display: flex;
+        flex-direction: column;
+        &:not(:last-child) {
+            margin-right: 10px;
+        }
+        &-inner {
+            flex: 1 1 auto;
+            &-price {
+                display: inline-flex;
+                padding: 10px;
+                border: 1px solid #1E1E1E;
+                border-radius: 35px;
+                &-inner {
+                    display: flex;
+                }
+                &-number {
+                    font-family: Manrope;
+                    font-size: 47px;
+                    font-weight: 700;
+                    line-height: 74px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #1E1E1E;
+                }
+                &-per-month {
+                    margin-top: 15px;
+                    align-self: center;
+                    font-family: Manrope;
+                    font-size: 29px;
+                    font-weight: 700;
+                    line-height: 32px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    opacity: 0.34;
+                    color: #1E1E1E;
+                }
+            }
+        }
+        &-quantity {
+            display: inline;
+            padding: 10px;
+            border-radius: 9px;
+            background-color: #0DAA61;
+            color: #fff;
+        }
+    }
+    @media (max-width: 575px) {
+        &__item {
+            flex-basis: 95%;
+            flex-shrink: 0;
+        }
+    }
+}

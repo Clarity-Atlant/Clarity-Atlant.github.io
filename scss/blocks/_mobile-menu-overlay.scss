@@ -1,0 +1,36 @@
+.mobile-menu-overlay {
+    display: none;
+    @media (max-width: 575px) {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        font-size: 29px;
+        font-weight: 700;
+        background-color: #EEEDEF;
+        &--active {
+            display: block;
+        }
+        &__list {
+            margin-top: 150px;
+            list-style-type: none;
+            flex: 1 1 auto;
+            &-item {
+                margin-top: 20px;
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    &__buttons {
+        display: flex;
+        flex-direction: column;
+        margin: 202px 20px 0;
+        &-item {
+            margin-top: 15px;
+            width: 100%;
+        }
+    }
+}

@@ -26,6 +26,9 @@
                 <a class="header__buttons-item button" href="#">Войти</a>
                 <a class="header__buttons-item button button--green" href="#">Регистрация</a>
             </div>
+            <div class="header__mobile-menu">
+                <img src="img/mobile-menu-burger.png" alt="#">
+            </div>
         </div>
         <div class="container">
             <div class="promo">
@@ -39,8 +42,10 @@
                         </div>
                         <div class="promo__main-bottom-work">
                             <a class="promo__main-bottom-work-button button button--green" href="#">Попробовать бесплатно</a>
-                            <span>Как начать работу</span>
-                            <img class="promo__main-bottom-work-image" src="img/work.png" alt="#">
+                            <div class="promo__main-bottom-work-start">
+                                <span>Как начать работу</span>
+                                <img class="promo__main-bottom-work-image" src="img/work.png" alt="#">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -165,17 +170,19 @@
                         <div class="possibilities__list-item" data-number="3"><div class="possibilities__list-item-inner">Мониторинг и прогноз</div></div>
                         <div class="possibilities__list-item" data-number="4"><div class="possibilities__list-item-inner">Программирование урожайности</div></div>
                     </div>
-                    <div class="possibilities__image possibilities__image--active" data-number="1">
-                        <img src="img/possibilities.png" alt="#">
-                    </div>
-                    <div class="possibilities__image" data-number="2">
-                        <img src="img/girl.png" alt="#">
-                    </div>
-                    <div class="possibilities__image" data-number="3">
-                        <img src="img/possibilities.png" alt="#">
-                    </div>
-                    <div class="possibilities__image" data-number="4">
-                        <img src="img/girl.png" alt="#">
+                    <div class="possibilities__images">
+                        <div class="possibilities__image possibilities__image--active" data-number="1">
+                            <img src="img/possibilities.png" alt="#">
+                        </div>
+                        <div class="possibilities__image" data-number="2">
+                            <img src="img/girl.png" alt="#">
+                        </div>
+                        <div class="possibilities__image" data-number="3">
+                            <img src="img/possibilities.png" alt="#">
+                        </div>
+                        <div class="possibilities__image" data-number="4">
+                            <img src="img/girl.png" alt="#">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -222,22 +229,62 @@
                             <a href="#" class="main-description__technologies-description-button">Попробовать бесплатно</a>
                         </div>
                         <div class="main-description__technologies-description-list">
-                            <details class="main-description__technologies-description-list-item">
-                                <summary>Программирование продуктивности</summary>
-                                <ul>
+                            <div class="main-description__technologies-description-list-item">
+                                <div>
+                                    <div class="main-description__technologies-description-list-item-text">
+                                        Программирование продуктивности
+                                    </div>
+                                    <div class="main-description__technologies-description-list-item-toggle">
+                                        <img src="img/plus.png" alt="#">
+                                    </div>
+                                </div>
+                                <ul class="main-description__technologies-description-list-item-list">
                                     <li>Алгоритмический расчет потенциально возможной продуктивности на конкретном поле</li>
                                     <li>Автоматизированный подбор технологии получения расчитанной продуктивности</li>
                                 </ul>
-                            </details>
-                            <details class="main-description__technologies-description-list-item">
-                                <summary>Индекс вегетации и рейтинг полей</summary>
-                            </details>
-                            <details class="main-description__technologies-description-list-item">
-                                <summary>Прогноз фаз вегетации</summary>
-                            </details>
-                            <details class="main-description__technologies-description-list-item">
-                                <summary>Карты для дифференцированного внесения удобрений</summary>
-                            </details>
+                            </div>
+                            <div class="main-description__technologies-description-list-item">
+                                <div>
+                                    <div class="main-description__technologies-description-list-item-text">
+                                        Индекс вегетации и рейтинг полей
+                                    </div>
+                                    <div class="main-description__technologies-description-list-item-toggle">
+                                        <img src="img/plus.png" alt="#">
+                                    </div>
+                                </div>
+                                <ul class="main-description__technologies-description-list-item-list">
+                                    <li>Алгоритмический расчет потенциально возможной продуктивности на конкретном поле</li>
+                                    <li>Автоматизированный подбор технологии получения расчитанной продуктивности</li>
+                                </ul>
+                            </div>
+                            <div class="main-description__technologies-description-list-item">
+                                <div>
+                                    <div class="main-description__technologies-description-list-item-text">
+                                        Прогноз фаз вегетации
+                                    </div>
+                                    <div class="main-description__technologies-description-list-item-toggle">
+                                        <img src="img/plus.png" alt="#">
+                                    </div>
+                                </div>
+                                <ul class="main-description__technologies-description-list-item-list">
+                                    <li>Алгоритмический расчет потенциально возможной продуктивности на конкретном поле</li>
+                                    <li>Автоматизированный подбор технологии получения расчитанной продуктивности</li>
+                                </ul>
+                            </div>
+                            <div class="main-description__technologies-description-list-item">
+                                <div>
+                                    <div class="main-description__technologies-description-list-item-text">
+                                        Карты для дифференцированного внесения удобрений
+                                    </div>
+                                    <div class="main-description__technologies-description-list-item-toggle">
+                                        <img src="img/plus.png" alt="#">
+                                    </div>
+                                </div>
+                                <ul class="main-description__technologies-description-list-item-list">
+                                    <li>Алгоритмический расчет потенциально возможной продуктивности на конкретном поле</li>
+                                    <li>Автоматизированный подбор технологии получения расчитанной продуктивности</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -284,8 +331,7 @@
         </div>
         <div class="how-to-start">
             <div class="container">
-
-                <h2>5 простых шагов, как начать работу в агроплатформе</h2>
+                <h2 class="how-to-start__headline">5 простых шагов, как начать работу в агроплатформе</h2>
                 <div class="how-to-start__inner">
                     <div class="how-to-start__left">
                         <div class="how-to-start__item">
@@ -335,12 +381,71 @@
                         </div>
                     </div>
                 </div>
+                <div class="how-to-start__mobile-inner">
+                    <div class="how-to-start__mobile-left">
+                        <div class="how-to-start__mobile-left-item">
+                            <img class="how-to-start__mobile-dot how-to-start__mobile-dot--first" src="img/dot.png" alt="#">
+                        </div>
+                        <div class="how-to-start__mobile-left-item">
+                            <img class="how-to-start__mobile-dot how-to-start__mobile-dot--second" src="img/dot.png" alt="#">
+                        </div>
+                        <div class="how-to-start__mobile-left-item">
+                            <img class="how-to-start__mobile-dot how-to-start__mobile-dot--third" src="img/dot.png" alt="#">
+                        </div>
+                        <div class="how-to-start__mobile-left-item">
+                            <img class="how-to-start__mobile-dot how-to-start__mobile-dot--fourth" src="img/dot.png" alt="#">
+                        </div>
+                        <div class="how-to-start__mobile-left-item">
+                            <img class="how-to-start__mobile-dot how-to-start__mobile-dot--fifth" src="img/dot.png" alt="#">
+                        </div>
+                        <img class="how-to-start__line" src="img/line.png" alt="#">
+                    </div>
+                    <div class="how-to-start__mobile-center">
+                        <p class="how-to-start__mobile-center-item">01</p>
+                        <p class="how-to-start__mobile-center-item">02</p>
+                        <p class="how-to-start__mobile-center-item">03</p>
+                        <p class="how-to-start__mobile-center-item">04</p>
+                        <p class="how-to-start__mobile-center-item">05</p>
+                    </div>
+                    <div class="how-to-start__mobile-list">
+                        <div class="how-to-start__mobile-item">
+                            <div class="how-to-start__mobile-item-inner">
+                                <div class="how-to-start__mobile-item-name">Регистрация</div>
+                                <div class="how-to-start__mobile-item-description">Зарегистрирутесь и создайте ваше первое поле, просто указав его границы на карте.</div>
+                            </div>
+                        </div>
+                        <div class="how-to-start__mobile-item">
+                            <div class="how-to-start__mobile-item-inner">
+                                <div class="how-to-start__mobile-item-name">Заполните данные</div>
+                                <div class="how-to-start__mobile-item-description">Заполните данные агрохимического и агрофизического анализа почвы.</div>
+                            </div>
+                        </div>
+                        <div class="how-to-start__mobile-item">
+                            <div class="how-to-start__mobile-item-inner">
+                                <div class="how-to-start__mobile-item-name">Создайте севооборот</div>
+                                <div class="how-to-start__mobile-item-description">Создайте севооборот, назначьте его на поле и выберите сорт.</div>
+                            </div>
+                        </div>
+                        <div class="how-to-start__mobile-item">
+                            <div class="how-to-start__mobile-item-inner">
+                                <div class="how-to-start__mobile-item-name">Добавьте своё оборудование</div>
+                                <div class="how-to-start__mobile-item-description">Добавьте технику, оборудование и стационарные объекты для оптимизации работ и транспортно-логистических процессов.</div>
+                            </div>
+                        </div>
+                        <div class="how-to-start__mobile-item">
+                            <div class="how-to-start__mobile-item-inner">
+                                <div class="how-to-start__mobile-item-name">Добавьте персонал</div>
+                                <div class="how-to-start__mobile-item-description">Нанимайте на работу, планируйте отпуска, привязывайте к технике, оборудованию и необходимым работам.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="subscription">
             <div class="container">
                 <div class="subscription__inner">
-                    <h2>Рассчитать подписку для вас</h2>
+                    <h2 class="subscription__inner-headline">Рассчитать подписку для вас</h2>
                     <form action="./" class="subscription__form">
                         <input class="subscription__form-text-input" type="text" placeholder="Константин">
                         <input class="subscription__form-text-input" type="text" placeholder="E-mail">
@@ -404,11 +509,30 @@
                     </div>
                     <div class="footer__bottom">
                         <div class="footer__copyright">© Умножай Урожай <script>document.write(new Date().getFullYear())</script></div>
-                        <a href="#" class="footer__menu-list-privacy-policy">Политика конфиденциальности</a>
+                        <a href="#" class="footer__privacy-policy">Политика конфиденциальности</a>
                         <a href="https://dsml.ru" class="footer__contacts-creator" target="_blank">Сделано в DSML</a>
+                    </div>
+                    <div class="footer__mobile-bottom">
+                        <a href="#" class="footer__mobile-privacy-policy">Политика конфиденциальности</a>
+                        <div class="footer__mobile-bottom-inner">
+                            <div class="footer__mobile-copyright">© Умножай Урожай <script>document.write(new Date().getFullYear())</script> </div>
+                            <a href="https://dsml.ru" class="footer__mobile-contacts-creator" target="_blank">Сделано в DSML</a>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="mobile-menu-overlay">
+        <ul class="mobile-menu-overlay__list">
+            <li class="mobile-menu-overlay__list-item"><a href="#">О сервисе</a></li>
+            <li class="mobile-menu-overlay__list-item"><a href="#">Точное земледелие</a></li>
+            <li class="mobile-menu-overlay__list-item"><a href="#">Возможности</a></li>
+            <li class="mobile-menu-overlay__list-item"><a href="#">Цены</a></li>
+        </ul>
+        <div class="mobile-menu-overlay__buttons">
+            <a class="mobile-menu-overlay__buttons-item button" href="#">Войти</a>
+            <a class="mobile-menu-overlay__buttons-item button button--green" href="#">Регистрация</a>
         </div>
     </div>
     <script src="js/jquery-3.7.1.min.js"></script>
