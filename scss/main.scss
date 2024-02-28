@@ -44,6 +44,13 @@ a {
         width: 600px;
     }
     @media (max-width: 575px) {
+        padding: 0 20px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 37px;
         width: auto;
     }
+}
+.swiper-slide-active {
+    margin-left: 0;
 }

@@ -112,6 +112,13 @@
             font-size: 16px;
             font-weight: 600;
             line-height: 18px;
+            &-list {
+                &-item {
+                    a {
+                        opacity: 0.5;
+                    }
+                }
+            }
         }
         &__icons {
             margin-left: -10px;

@@ -87,7 +87,7 @@
         }
     }
     @media (max-width: 575px) {
-        padding: 100px 20px;
+        padding: 100px 20px 150px;
         &__headline {
             width: 100%;
             text-align: left;
@@ -110,10 +110,24 @@
             &-list {
                 display: flex;
                 flex-direction: column;
+                position: relative;
             }
             &-item {
-                &:not(:first-child) {
-                    margin-top: 20px;
+                position: absolute;
+                &--first {
+                    top: -5px;
+                }
+                &--second {
+                    top: 215px;
+                }
+                &--third {
+                    top: 435px;
+                }
+                &--fourth {
+                    top: 650px;
+                }
+                &--fifth {
+                    top: 870px;
                 }
                 margin-left: 20px;
                 &-name {

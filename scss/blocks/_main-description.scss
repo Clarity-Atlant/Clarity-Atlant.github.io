@@ -95,11 +95,18 @@
         height: auto;
         &__headline {
             padding: 30px 15px;
-            width: 100%;
+            width: 295px;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 41px;
         }
         &__list {
+            padding: 0;
             &-item {
                 flex-basis: auto;
+                p {
+                    color: #6E6E73;
+                }
             }
         }
         &__technologies {
@@ -113,6 +120,12 @@
                     &-item {
                         &-list {
                             padding: 20px;
+                        }
+                        &-text {
+                            color: #1E1E1E !important;
+                            font-size: 18px;
+                            font-weight: 600;
+                            line-height: 20px;
                         }
                     }
                     &-item:last-child {

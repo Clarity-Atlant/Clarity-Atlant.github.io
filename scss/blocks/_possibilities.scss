@@ -15,7 +15,7 @@
         &-item {
             cursor: pointer;
             color: #1E1E1E;
-            width: 350px;
+            max-width: 350px;
             height: 110px;
             margin-top: 10px;
             background-color: #fff;
@@ -49,12 +49,21 @@
             display: block;
         }
     }
+    &__mobile-nav {
+        display: none;
+    }
     @media (max-width: 575px) {
         &__inner {
             flex-direction: column;
         }
         &__list {
             order: 1;
+            &-item {
+                display: none;
+                &--active {
+                    display: block;
+                }
+            }
         }
         &__image {
             margin: 0;
@@ -64,7 +73,27 @@
             }
         }
         &__headline {
+            margin-top: 20px;
             font-size: 32px;
+        }
+        &__mobile-nav {
+            display: flex;
+            margin-top: 20px;
+            justify-content: center;
+            order: 2;
+            &-item {
+                cursor: pointer;
+                width: 8px;
+                border-radius: 11px;
+                margin-left: 8px;
+                background-color: #1E1E1E;
+                &--active {
+                    width: 60px;
+                    height: 8px;
+                    opacity: 0.1;
+                    border-radius: 11px;
+                }
+            }
         }
     }
 }

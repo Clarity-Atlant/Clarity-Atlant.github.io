@@ -56,10 +56,21 @@
             order: -1;
             margin-top: 100px;
             img {
-                width: 100%;
+                min-width: 320px;
+                max-width: 400px;
             }
         }
         &__main {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding: 0 20px;
+            &-header {
+                align-self: center;
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 41px;
+            }
             &-bottom {
                 &-work {
                     display: flex;
@@ -67,14 +78,19 @@
                     &-start {
                         display: flex;
                         margin-top: 20px;
+                        margin-left: -20px;
                     }
                     &-button {
-                        width: 80%;
+                        width: 90%;
+                        margin-right: 40px;
                     }
                     &-image {
                         margin-top: -10px;
                     }
                 }
+            }
+            &-description {
+                width: 350px;
             }
         }
     }

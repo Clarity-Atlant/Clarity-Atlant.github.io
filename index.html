@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 </head>
 <body>
     <div class="wrapper">
@@ -87,6 +89,50 @@
                     <div class="cards__item-text">К рентабельности бизнеса</div>
                 </div>
             </div>
+            <div class="cards-mobile swiper">
+                <div class="swiper-wrapper">
+                    <div class="cards-mobile__item swiper-slide">
+                        <div class="cards-mobile__item">
+                            <div class="cards-mobile__item-price">
+                                <div class="cards-mobile__item-price-inner">
+                                    +15%
+                                </div>
+                            </div>
+                            <div class="cards-mobile__item-text">Прирост урожайности</div>
+                        </div>
+                    </div>
+                    <div class="cards-mobile__item swiper-slide">
+                        <div class="cards-mobile__item">
+                            <div class="cards-mobile__item-price">
+                                <div class="cards-mobile__item-price-inner">
+                                    +15%
+                                </div>
+                            </div>
+                            <div class="cards-mobile__item-text">Общая производительность с/х предприятия</div>
+                        </div>
+                    </div>
+                    <div class="cards-mobile__item swiper-slide">
+                        <div class="cards-mobile__item">
+                            <div class="cards-mobile__item-price">
+                                <div class="cards-mobile__item-price-inner">
+                                    +15%
+                                </div>
+                            </div>
+                            <div class="cards-mobile__item-text">Экономия затрат</div>
+                        </div>
+                    </div>
+                    <div class="cards-mobile__item swiper-slide">
+                        <div class="cards-mobile__item">
+                            <div class="cards-mobile__item-price">
+                                <div class="cards-mobile__item-price-inner">
+                                    +15%
+                                </div>
+                            </div>
+                            <div class="cards-mobile__item-text">К рентабельности бизнеса</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <h2 class="headline headline-big">Для кого предназначен Умножай Урожай?</h2>
             <div class="intentions">
                 <a href="#" class="intentions__item">
@@ -138,25 +184,75 @@
                     </div>
                 </a>
             </div>
+            <div class="intentions-mobile slick">
+                <a href="#" class="intentions-mobile__item swiper-slide">
+                    <img class="intentions-mobile__item-illustration" src="img/illustration-1.png" alt="#">
+                    <div class="intentions-mobile__item-bottom">
+                        <div class="intentions-mobile__item-bottom-inner">
+                            <h3>Для малых хозяйств</h3>
+                            <p>до 1 600 га</p>
+                        </div>
+                        <div class="intentions-mobile__item-bottom-image">
+                            <img src="img/arrow.png" alt="#">
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="intentions-mobile__item swiper-slide">
+                    <img class="intentions-mobile__item-illustration" src="img/illustration-2.png" alt="#">
+                    <div class="intentions-mobile__item-bottom">
+                        <div class="intentions-mobile__item-bottom-inner">
+                            <h3>Для средних хозяйств</h3>
+                            <p>до 6 000 га</p>
+                        </div>
+                        <div class="intentions-mobile__item-bottom-image">
+                            <img src="img/arrow.png" alt="#">
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="intentions-mobile__item swiper-slide">
+                    <img class="intentions-mobile__item-illustration" src="img/illustration-3.png" alt="#">
+                    <div class="intentions-mobile__item-bottom">
+                        <div class="intentions-mobile__item-bottom-inner">
+                            <h3>Для крупных хозяйств</h3>
+                            <p>до 12 000 га</p>
+                        </div>
+                        <div class="intentions-mobile__item-bottom-image">
+                            <img src="img/arrow.png" alt="#">
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="intentions-mobile__item swiper-slide">
+                    <img class="intentions-mobile__item-illustration" src="img/illustration-4.png" alt="#">
+                    <div class="intentions-mobile__item-bottom">
+                        <div class="intentions-mobile__item-bottom-inner">
+                            <h3>Для агрохолдингов</h3>
+                            <p>cвыше 12 000 га</p>
+                        </div>
+                        <div class="intentions-mobile__item-bottom-image">
+                            <img src="img/arrow.png" alt="#">
+                        </div>
+                    </div>
+                </a>
+            </div>
             <div class="how-it-works">
                 <h2 class="how-it-works__headline">Как работает Умножай Урожай?</h2>
                 <div class="how-it-works__list">
-                    <div class="how-it-works__list-item">
+                    <div class="how-it-works__list-item how-it-works__list-item--active">
                         <img src="img/how-it-works-1.png" alt="#">
                         <h3>Собираем данные</h3>
                         <p>Создавайте цифровые карты полей всего в несколько кликов.</p>
                         <p>Агроплатформа автоматически загрузит снимки ваших полей со спутников, а также многолетние исторические данные о климате и погоде.</p>
                     </div>
-                    <div class="how-it-works__list-item">
+                    <div class="how-it-works__list-item how-it-works__list-item--active">
                         <img src="img/how-it-works-2.png" alt="#">
                         <h3>Анализируем</h3>
                         <p>На базе полученных данных система анализирует данные по культурам, сортам, агрофизические и агрохимические характеристики почвы и участки для выявления областей аномалий.</p>
                         <p>Выбирайте наиболее подходящие и урожайные сорта и культуры именно для ваших почв</p>
                     </div>
-                    <div class="how-it-works__list-item">
+                    <div class="how-it-works__list-item how-it-works__list-item--active">
                         <img src="img/how-it-works-3.png" alt="#">
                         <h3>Прогнозируем и даем рекомендации</h3>
-                        <p>На основе анализа полученных данных и на базе уникальных методик расчета урожайности, агроплатформа Умножай Урожай дает максимально точные рекомендации по уходу за культурами на всем цикле выращивания.</p>
+                        <p>На основе анализа полученных данных и на базе уникальных методик расчёта урожайности, агроплатформа Умножай Урожай дает максимально точные рекомендации по уходу за культурами на всем цикле выращивания.</p>
                         <p>Своевременно оповещает о проблемах дефицита удобрений и болезней растений, а также прогнозирует урожайность с точностью до 99%</p>
                     </div>
                 </div>
@@ -183,6 +279,12 @@
                         <div class="possibilities__image" data-number="4">
                             <img src="img/girl.png" alt="#">
                         </div>
+                    </div>
+                    <div class="possibilities__mobile-nav">
+                        <div class="possibilities__mobile-nav-item possibilities__mobile-nav-item--active" data-number="1"></div>
+                        <div class="possibilities__mobile-nav-item" data-number="2"></div>
+                        <div class="possibilities__mobile-nav-item" data-number="3"></div>
+                        <div class="possibilities__mobile-nav-item" data-number="4"></div>
                     </div>
                 </div>
             </div>
@@ -230,30 +332,26 @@
                         </div>
                         <div class="main-description__technologies-description-list">
                             <div class="main-description__technologies-description-list-item">
-                                <div>
-                                    <div class="main-description__technologies-description-list-item-text">
-                                        Программирование продуктивности
-                                    </div>
-                                    <div class="main-description__technologies-description-list-item-toggle">
-                                        <img src="img/plus.png" alt="#">
-                                    </div>
+                                <div class="main-description__technologies-description-list-item-text">
+                                    Программирование продуктивности
+                                </div>
+                                <div class="main-description__technologies-description-list-item-toggle">
+                                    <img src="img/plus.png" alt="#">
                                 </div>
                                 <ul class="main-description__technologies-description-list-item-list">
-                                    <li>Алгоритмический расчет потенциально возможной продуктивности на конкретном поле</li>
+                                    <li>Алгоритмический расчёт потенциально возможной продуктивности на конкретном поле</li>
                                     <li>Автоматизированный подбор технологии получения расчитанной продуктивности</li>
                                 </ul>
                             </div>
                             <div class="main-description__technologies-description-list-item">
-                                <div>
-                                    <div class="main-description__technologies-description-list-item-text">
-                                        Индекс вегетации и рейтинг полей
-                                    </div>
-                                    <div class="main-description__technologies-description-list-item-toggle">
-                                        <img src="img/plus.png" alt="#">
-                                    </div>
+                                <div class="main-description__technologies-description-list-item-text">
+                                    Индекс вегетации и рейтинг полей
+                                </div>
+                                <div class="main-description__technologies-description-list-item-toggle">
+                                    <img src="img/plus.png" alt="#">
                                 </div>
                                 <ul class="main-description__technologies-description-list-item-list">
-                                    <li>Алгоритмический расчет потенциально возможной продуктивности на конкретном поле</li>
+                                    <li>Алгоритмический расчёт потенциально возможной продуктивности на конкретном поле</li>
                                     <li>Автоматизированный подбор технологии получения расчитанной продуктивности</li>
                                 </ul>
                             </div>
@@ -267,7 +365,7 @@
                                     </div>
                                 </div>
                                 <ul class="main-description__technologies-description-list-item-list">
-                                    <li>Алгоритмический расчет потенциально возможной продуктивности на конкретном поле</li>
+                                    <li>Алгоритмический расчёт потенциально возможной продуктивности на конкретном поле</li>
                                     <li>Автоматизированный подбор технологии получения расчитанной продуктивности</li>
                                 </ul>
                             </div>
@@ -281,7 +379,7 @@
                                     </div>
                                 </div>
                                 <ul class="main-description__technologies-description-list-item-list">
-                                    <li>Алгоритмический расчет потенциально возможной продуктивности на конкретном поле</li>
+                                    <li>Алгоритмический расчёт потенциально возможной продуктивности на конкретном поле</li>
                                     <li>Автоматизированный подбор технологии получения расчитанной продуктивности</li>
                                 </ul>
                             </div>
@@ -324,6 +422,46 @@
                     <div class="our-rates__item-inner-price">
                         <div class="our-rates__item-inner-price-inner">
                             <span class="our-rates__item-inner-price-number">35 000₽</span><span class="our-rates__item-inner-price-per-month">/ мес</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="our-rates-mobile swiper">
+                <div class="swiper-wrapper">
+                    <div class="our-rates-mobile__item swiper-slide">
+                        <div class="our-rates-mobile__item-inner">
+                            <h3 class="our-rates-mobile__item-quantity">до 1 600 га</h3>
+                            <h3 class="our-rates-mobile__item-short-description">Для малых хозяйств</h3>
+                            <p>Услуги агроконсалтинга — комплексное сопровождение агропроизводства на всех этапах — рассчитывается в индивидуальном порядке.</p>
+                        </div>
+                        <div class="our-rates-mobile__item-inner-price">
+                            <div class="our-rates-mobile__item-inner-price-inner">
+                                <span class="our-rates-mobile__item-inner-price-number">8 000₽</span><span class="our-rates__item-inner-price-per-month">/ мес</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="our-rates-mobile__item swiper-slide">
+                        <div class="our-rates-mobile__item-inner">
+                            <h3 class="our-rates-mobile__item-quantity">до 6 000 га</h3>
+                            <h3 class="our-rates-mobile__item-short-description">Для средних хозяйств</h3>
+                            <p>Услуги агроконсалтинга — комплексное сопровождение агропроизводства на всех этапах — рассчитывается в индивидуальном порядке.</p>
+                        </div>
+                        <div class="our-rates-mobile__item-inner-price">
+                            <div class="our-rates-mobile__item-inner-price-inner">
+                                <span class="our-rates-mobile__item-inner-price-number">20 000₽</span><span class="our-rates__item-inner-price-per-month">/ мес</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="our-rates-mobile__item swiper-slide">
+                        <div class="our-rates-mobile__item-inner">
+                            <h3 class="our-rates-mobile__item-quantity">до 12 000 га</h3>
+                            <h3 class="our-rates-mobile__item-short-description">Для крупных хозяйств</h3>
+                            <p>Услуги агроконсалтинга — комплексное сопровождение агропроизводства на всех этапах — рассчитывается в индивидуальном порядке.</p>
+                        </div>
+                        <div class="our-rates-mobile__item-inner-price">
+                            <div class="our-rates-mobile__item-inner-price-inner">
+                                <span class="our-rates-mobile__item-inner-price-number">35 000₽</span><span class="our-rates__item-inner-price-per-month">/ мес</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -408,35 +546,25 @@
                         <p class="how-to-start__mobile-center-item">05</p>
                     </div>
                     <div class="how-to-start__mobile-list">
-                        <div class="how-to-start__mobile-item">
-                            <div class="how-to-start__mobile-item-inner">
-                                <div class="how-to-start__mobile-item-name">Регистрация</div>
-                                <div class="how-to-start__mobile-item-description">Зарегистрирутесь и создайте ваше первое поле, просто указав его границы на карте.</div>
-                            </div>
+                        <div class="how-to-start__mobile-item how-to-start__mobile-item--first">
+                            <div class="how-to-start__mobile-item-name">Регистрация</div>
+                            <div class="how-to-start__mobile-item-description">Зарегистрирутесь и создайте ваше первое поле, просто указав его границы на карте.</div>
                         </div>
-                        <div class="how-to-start__mobile-item">
-                            <div class="how-to-start__mobile-item-inner">
-                                <div class="how-to-start__mobile-item-name">Заполните данные</div>
-                                <div class="how-to-start__mobile-item-description">Заполните данные агрохимического и агрофизического анализа почвы.</div>
-                            </div>
+                        <div class="how-to-start__mobile-item how-to-start__mobile-item--second">
+                            <div class="how-to-start__mobile-item-name">Заполните данные</div>
+                            <div class="how-to-start__mobile-item-description">Заполните данные агрохимического и агрофизического анализа почвы.</div>
                         </div>
-                        <div class="how-to-start__mobile-item">
-                            <div class="how-to-start__mobile-item-inner">
-                                <div class="how-to-start__mobile-item-name">Создайте севооборот</div>
-                                <div class="how-to-start__mobile-item-description">Создайте севооборот, назначьте его на поле и выберите сорт.</div>
-                            </div>
+                        <div class="how-to-start__mobile-item how-to-start__mobile-item--third">
+                            <div class="how-to-start__mobile-item-name">Создайте севооборот</div>
+                            <div class="how-to-start__mobile-item-description">Создайте севооборот, назначьте его на поле и выберите сорт.</div>
                         </div>
-                        <div class="how-to-start__mobile-item">
-                            <div class="how-to-start__mobile-item-inner">
-                                <div class="how-to-start__mobile-item-name">Добавьте своё оборудование</div>
-                                <div class="how-to-start__mobile-item-description">Добавьте технику, оборудование и стационарные объекты для оптимизации работ и транспортно-логистических процессов.</div>
-                            </div>
+                        <div class="how-to-start__mobile-item how-to-start__mobile-item--fourth">
+                            <div class="how-to-start__mobile-item-name">Добавьте своё оборудование</div>
+                            <div class="how-to-start__mobile-item-description">Добавьте технику, оборудование и стационарные объекты для оптимизации работ и транспортно-логистических процессов.</div>
                         </div>
-                        <div class="how-to-start__mobile-item">
-                            <div class="how-to-start__mobile-item-inner">
-                                <div class="how-to-start__mobile-item-name">Добавьте персонал</div>
-                                <div class="how-to-start__mobile-item-description">Нанимайте на работу, планируйте отпуска, привязывайте к технике, оборудованию и необходимым работам.</div>
-                            </div>
+                        <div class="how-to-start__mobile-item how-to-start__mobile-item--fifth">
+                            <div class="how-to-start__mobile-item-name">Добавьте персонал</div>
+                            <div class="how-to-start__mobile-item-description">Нанимайте на работу, планируйте отпуска, привязывайте к технике, оборудованию и необходимым работам.</div>
                         </div>
                     </div>
                 </div>
@@ -536,6 +664,8 @@
         </div>
     </div>
     <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
