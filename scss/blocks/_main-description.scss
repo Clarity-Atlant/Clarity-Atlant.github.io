@@ -1,6 +1,6 @@
 .main-description {
     // width: 1380px;
-    height: 1785px;
+    height: 1605px;
     background-color: #fff;
     border-radius: 50px;
     &__headline {
@@ -21,6 +21,8 @@
         margin: 0 auto;
         &-item {
             padding: 25px;
+            padding-left: 0;
+            margin-left: -15px;
             flex-basis: 26%;
         }
     }
@@ -51,7 +53,7 @@
                 line-height: 25px;
                 &:hover {
                     transition: 0.6s ease;
-                    color: #eee;
+                    opacity: 0.75;
                 }
             }
             &-list {
@@ -95,7 +97,7 @@
         height: auto;
         &__headline {
             padding: 30px 15px;
-            width: 295px;
+            width: 310px;
             font-size: 36px;
             font-weight: 700;
             line-height: 41px;
@@ -106,6 +108,7 @@
                 flex-basis: auto;
                 p {
                     color: #6E6E73;
+                    width: 300px;
                 }
             }
         }
@@ -118,6 +121,9 @@
                 &-list {
                     padding: 20px;
                     &-item {
+                        li {
+                            width: 280px;
+                        }
                         &-list {
                             padding: 20px;
                         }
@@ -127,11 +133,24 @@
                             font-weight: 600;
                             line-height: 20px;
                         }
+                        &-toggle {
+                            cursor: pointer;
+                            position: absolute;
+                            display: inline;
+                            height: 20px;
+                            top: 33px;
+                            right: 30px;
+                            width: 21px;
+                            height: 21px;
+                        }
                     }
                     &-item:last-child {
                         border-bottom: 1px solid #000;
                         margin-bottom: 50px;
                     }
+                }
+                p {
+                    width: 300px;
                 }
             }
         }

@@ -8,13 +8,15 @@ $(document).ready(function() {
     });
     $('.main-description__technologies-description-list-item-toggle').click(function() {
         if($(this).find('img').attr('src') == 'img/minus.png') {
-            $(this).parent().siblings('.main-description__technologies-description-list-item-list').css('display', 'block');
-            $(this).parent().siblings('.main-description__technologies-description-list-item-list').slideToggle(150);
+            $(this).siblings('.main-description__technologies-description-list-item-list').css('display', 'block');
+            $(this).siblings('.main-description__technologies-description-list-item-list').slideToggle(150);
             $(this).find('img').attr('src', 'img/plus.png');
             $(this).css('top', '30px');
         } else {
-            $(this).parent().siblings('.main-description__technologies-description-list-item-list').css('display', 'none');
-            $(this).parent().siblings('.main-description__technologies-description-list-item-list').slideToggle(150);
+            $('.main-description__technologies-description-list-item-list').css('display', 'none');
+            $('.main-description__technologies-description-list-item-toggle').find('img').attr('src', 'img/plus.png');
+            $(this).siblings('.main-description__technologies-description-list-item-list').css('display', 'none');
+            $(this).siblings('.main-description__technologies-description-list-item-list').slideToggle(150);
             $(this).find('img').attr('src', 'img/minus.png');
             $(this).css('top', '25px');
         }
@@ -42,7 +44,7 @@ $(document).ready(function() {
         // }
     });
     const swiper = new Swiper('.swiper', {
-        width: 380,
+        width: 330,
     });
     $('.slick').slick({
         slidesToShow: 1,
@@ -54,7 +56,26 @@ $(document).ready(function() {
         mobileFirst: true,
         width: 'auto',
     });
+    $('.intentions__item-bottom-image').mouseenter(function() {
+        $(this).find('img').attr('src', 'img/work-black.png')
+    });
+    $('.intentions__item-bottom-image').mouseleave(function() {
+        $(this).find('img').attr('src', 'img/arrow.png')
+    });
+    $('.intentions-mobile__item-bottom-image').mouseenter(function() {
+        $(this).find('img').attr('src', 'img/work-black.png')
+    });
+    $('.intentions-mobile__item-bottom-image').mouseleave(function() {
+        $(this).find('img').attr('src', 'img/arrow.png')
+    });
     // const swiperIntentions = new Swiper('.swiper-intentions', {
     //     width: 400,
     // });
+    $('.promo__main-bottom-work-start').mouseenter(function() {
+        $(this).find('img').attr('src', 'img/work-green.png');
+    });
+    $('.promo__main-bottom-work-start').mouseleave(function() {
+        $(this).find('img').attr('src', 'img/arrow.png');
+    });
+
 });

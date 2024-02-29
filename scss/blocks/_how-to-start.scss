@@ -15,6 +15,7 @@
     &__inner {
         display: flex;
         justify-content: center;
+        position: relative;
     }
     &__center {
         position: relative;
@@ -43,8 +44,26 @@
     }
     &__item {
         display: flex;
-        &:not(:last-child) {
-            margin-bottom: 325px;
+        position: absolute;
+        &--first {
+            top: 0;
+            left: 150px;
+        }
+        &--second {
+            top: 40px;
+            left: 650px;
+        }
+        &--third {
+            top: 440px;
+            left: 150px;
+        }
+        &--fourth {
+            top: 660px;
+            left: 650px;
+        }
+        &--fifth {
+            top: 880px;
+            left: 150px;
         }
         &-inner {
             margin-left: 15px;
@@ -87,7 +106,7 @@
         }
     }
     @media (max-width: 575px) {
-        padding: 100px 20px 150px;
+        padding: 50px 20px 150px;
         &__headline {
             width: 100%;
             text-align: left;

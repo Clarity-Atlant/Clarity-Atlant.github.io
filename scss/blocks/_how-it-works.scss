@@ -16,6 +16,14 @@
         padding: 40px 95px;
         &-item {
             flex-basis: 33%;
+            h3 {
+                font-size: 29px;
+                font-weight: 700;
+                line-height: 32px;
+            }
+            p {
+                width: 295px;
+            }
             &:not(:first-child) {
                 margin-left: 50px;
             }

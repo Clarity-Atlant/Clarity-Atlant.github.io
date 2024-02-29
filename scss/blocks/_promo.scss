@@ -26,12 +26,31 @@
                     padding: 0;
                     border-radius: 32px;
                     margin-right: 38px;
+                    &:hover {
+                        opacity: 0.75;
+                    }
                 }
                 &-image {
                     margin-left: 15px;
                     cursor: pointer;
                     width: 40px;
                     height: 40px;
+                }
+                &-start {
+                    display: flex;
+                    align-items: center;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 25px;
+                    span {
+                        width: 162px;
+                        &:hover {
+                            text-decoration: underline;
+                            text-decoration-color: #1E1E1E;
+                            text-decoration-thickness: 1px;
+                            text-underline-offset: 7px;
+                        }
+                    }
                 }
             }
             &-price {
@@ -56,15 +75,14 @@
             order: -1;
             margin-top: 100px;
             img {
-                min-width: 320px;
-                max-width: 400px;
+                width: 357px;
             }
         }
         &__main {
             width: 100%;
             display: flex;
             flex-direction: column;
-            padding: 0 20px;
+            padding: 0 10px;
             &-header {
                 align-self: center;
                 font-size: 36px;
@@ -75,14 +93,15 @@
                 &-work {
                     display: flex;
                     flex-direction: column;
+                    justify-content: flex-start;
                     &-start {
                         display: flex;
                         margin-top: 20px;
                         margin-left: -20px;
                     }
                     &-button {
-                        width: 90%;
-                        margin-right: 40px;
+                        width: 85%;
+                        margin-right: 60px;
                     }
                     &-image {
                         margin-top: -10px;

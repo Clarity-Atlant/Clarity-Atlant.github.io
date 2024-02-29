@@ -15,9 +15,8 @@
                 text-decoration: none;
                 color: #1E1E1E;
                 &:hover {
-                    transition: 0.6s ease;
                     text-decoration: underline;
-                    color: #5D5D5D;
+                    text-underline-offset: 5px;
                 }
             }
         }

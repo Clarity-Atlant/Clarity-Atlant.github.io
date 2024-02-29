@@ -29,8 +29,13 @@
             text-decoration-color: #1E1E1E !important;
             outline-color: #1E1E1E !important;
             &-item {
+                position: relative;
                 &:not(:first-child) {
                     margin-top: 15px;
+                }
+                &:hover {
+                    text-decoration: underline;
+                    text-underline-offset: 5px;
                 }
                 color: #1E1E1E !important;
                 a {
@@ -39,9 +44,10 @@
                 a:visited {
                     color: #1E1E1E !important;
                 }
-                a:hover {
-                    text-decoration: underline;
-                }
+                // a:hover {
+                //     padding-bottom: 1px;
+                //     border-bottom: 1px solid #1E1E1E;
+                // }
             }
             &-left {
                 flex: 1 1 auto;
@@ -81,16 +87,22 @@
                 }
                 &:hover {
                     text-decoration: underline;
+                    text-underline-offset: 5px;
                 }
             }
         }
         &-creator {
             margin-left: 453px;
             text-decoration: underline;
+            text-underline-offset: 4px;
             &:visited {
                 color: #1E1E1E;
             }
         }
+    }
+    &__privacy-policy {
+        text-decoration: underline;
+        text-underline-offset: 4px;
     }
     &__mobile-bottom {
         display: none;
@@ -132,6 +144,7 @@
                 margin-left: 10px;
                 display: block;
                 &-inner {
+                    width: 330px;
                     display: flex;
                     justify-content: space-between;
                     margin-top: 40px;

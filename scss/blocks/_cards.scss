@@ -49,14 +49,17 @@
             display: flex !important;
             margin: 30px 0 150px;
             &__item {
-                margin-right: 10px;
+                margin-left: 20px;
                 display: flex;
                 position: relative;
                 flex-direction: column;
-                width: 290px;
+                width: 260px;
                 height: 323px;
                 border-radius: 35px;
                 background-color: #fff;
+                &--outer {
+                    margin-left: 6px !important;
+                }
                 &-price {
                     position: relative;
                     flex: 1 1 auto;
