@@ -32,7 +32,6 @@
                 }
                 &-image {
                     margin-left: 15px;
-                    cursor: pointer;
                     width: 40px;
                     height: 40px;
                 }
@@ -42,6 +41,7 @@
                     font-size: 18px;
                     font-weight: 600;
                     line-height: 25px;
+                    text-decoration: none;
                     span {
                         width: 162px;
                         &:hover {

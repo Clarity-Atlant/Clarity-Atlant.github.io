@@ -51,9 +51,9 @@ $(document).ready(function() {
         slidesToScroll: 1,
         arrows: false,
         loop: false,
-        centerMode: true,
-        variableWidth: true,
-        mobileFirst: true,
+        // centerMode: true,
+        // variableWidth: true,
+        // mobileFirst: true,
         width: 'auto',
     });
     $('.intentions__item-bottom-image').mouseenter(function() {

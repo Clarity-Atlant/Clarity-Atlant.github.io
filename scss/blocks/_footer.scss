@@ -8,6 +8,7 @@
         display: flex;
         width: 100%;
         margin-top: 70px;
+        padding-bottom: 50px;
     }
     &__left {
         display: flex;
@@ -19,12 +20,12 @@
     }
     &__menu {
         display: flex;
-        margin: 40px 0 0 50px;
+        margin: 40px 0 0 28px;
         &-list {
             display: flex;
             flex-direction: column;
             list-style-type: none;
-            margin: 0;
+            margin-left: 22px;
             color: #1E1E1E !important;
             text-decoration-color: #1E1E1E !important;
             outline-color: #1E1E1E !important;
@@ -118,7 +119,7 @@
             flex-direction: column;
         }
         &__menu {
-            margin-left: -30px;
+            margin-left: -10px;
             color: #1E1E1E;
             font-family: Manrope;
             font-size: 16px;
