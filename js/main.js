@@ -51,10 +51,10 @@ $(document).ready(function() {
         slidesToScroll: 1,
         arrows: false,
         loop: false,
-        // centerMode: true,
-        // variableWidth: true,
-        // mobileFirst: true,
-        width: 'auto',
+        centerMode: true,
+        variableWidth: true,
+        mobileFirst: true,
+        width: '330px',
     });
     $('.intentions__item-bottom-image').mouseenter(function() {
         $(this).find('img').attr('src', 'img/work-black.png')

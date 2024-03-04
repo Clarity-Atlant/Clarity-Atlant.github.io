@@ -1,6 +1,6 @@
 .promo {
     display: flex;
-    margin: 0 auto;
+    margin: 150px auto 0;
     &__main {
         width: 500px;
         // margin-left: 100px;
@@ -25,7 +25,7 @@
                     height: 55px;
                     padding: 0;
                     border-radius: 32px;
-                    margin-right: 38px;
+                    // margin-right: 38px;
                     &:hover {
                         opacity: 0.75;
                     }
@@ -43,6 +43,7 @@
                     line-height: 25px;
                     text-decoration: none;
                     span {
+                        margin-top: -15px;
                         width: 162px;
                     }
                     &:hover span {
@@ -73,7 +74,7 @@
         flex-direction: column;
         &__image {
             order: -1;
-            margin-top: 100px;
+            margin: 0 auto;
             img {
                 width: 357px;
             }
@@ -101,11 +102,14 @@
                     }
                     &-button {
                         width: 85%;
-                        margin-right: 60px;
+                        // margin-right: 60px;
                     }
                     &-image {
                         margin-top: -10px;
                     }
+                }
+                &-price {
+                    text-align: center;
                 }
             }
             &-description {
