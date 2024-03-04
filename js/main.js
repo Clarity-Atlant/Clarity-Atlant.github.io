@@ -6,19 +6,19 @@ $(document).ready(function() {
         $('.possibilities__image').removeClass('possibilities__image--active');
         $('.possibilities__image[data-number=' + dataNumber + ']').addClass('possibilities__image--active');
     });
-    $('.main-description__technologies-description-list-item-toggle').click(function() {
+    $('.main-description__technologies-description-list-item').click(function() {
         if($(this).find('img').attr('src') == 'img/minus.png') {
-            $(this).siblings('.main-description__technologies-description-list-item-list').css('display', 'block');
-            $(this).siblings('.main-description__technologies-description-list-item-list').slideToggle(150);
+            $(this).find('.main-description__technologies-description-list-item-list').css('display', 'block');
+            $(this).find('.main-description__technologies-description-list-item-list').slideToggle(150);
             $(this).find('img').attr('src', 'img/plus.png');
-            $(this).css('top', '30px');
+            $(this).find('.main-description__technologies-description-list-item-toggle').css('top', '30px');
         } else {
             $('.main-description__technologies-description-list-item-list').css('display', 'none');
             $('.main-description__technologies-description-list-item-toggle').find('img').attr('src', 'img/plus.png');
-            $(this).siblings('.main-description__technologies-description-list-item-list').css('display', 'none');
-            $(this).siblings('.main-description__technologies-description-list-item-list').slideToggle(150);
+            $(this).find('.main-description__technologies-description-list-item-list').css('display', 'none');
+            $(this).find('.main-description__technologies-description-list-item-list').slideToggle(150);
             $(this).find('img').attr('src', 'img/minus.png');
-            $(this).css('top', '25px');
+            $(this).find('.main-description__technologies-description-list-item-toggle').css('top', '25px');
         }
     });
     $('.header__mobile-menu').click(function() {

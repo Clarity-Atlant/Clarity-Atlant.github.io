@@ -901,6 +901,7 @@
   opacity: 0.75;
 }
 .main-description__technologies-description-list-item {
+  cursor: pointer;
   position: relative;
   padding: 28px 0;
   -webkit-transition: 0.6s ease;
@@ -922,14 +923,13 @@
   width: 80%;
 }
 .main-description__technologies-description-list-item-toggle {
-  cursor: pointer;
   position: absolute;
   display: inline;
   height: 20px;
-  top: 25px;
+  top: 28px;
   right: 5px;
   width: 21px;
-  height: 21px;
+  height: 22px;
 }
 .main-description__technologies-description-list-item-list {
   display: none;
@@ -1392,7 +1392,7 @@
 .promo__main-bottom-work-start span {
   width: 162px;
 }
-.promo__main-bottom-work-start span:hover {
+.promo__main-bottom-work-start:hover span {
   text-decoration: underline;
   -webkit-text-decoration-color: #1E1E1E;
           text-decoration-color: #1E1E1E;

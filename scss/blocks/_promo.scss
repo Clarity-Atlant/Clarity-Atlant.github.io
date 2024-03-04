@@ -44,12 +44,12 @@
                     text-decoration: none;
                     span {
                         width: 162px;
-                        &:hover {
-                            text-decoration: underline;
-                            text-decoration-color: #1E1E1E;
-                            text-decoration-thickness: 1px;
-                            text-underline-offset: 7px;
-                        }
+                    }
+                    &:hover span {
+                        text-decoration: underline;
+                        text-decoration-color: #1E1E1E;
+                        text-decoration-thickness: 1px;
+                        text-underline-offset: 7px;
                     }
                 }
             }
