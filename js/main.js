@@ -44,17 +44,17 @@ $(document).ready(function() {
         // }
     });
     const swiper = new Swiper('.swiper', {
-        width: 370,
+        width: 360,
         slidesPerView: 1.01,
         slidesPerColumn: 1.5,
-        // centeredSlides: true,
-        spaceBetween: 15,
+        centeredSlides: true,
+        spaceBetween: 10,
     });
     const swiperIntentions = new Swiper('.swiper-intentions', {
-        width: 430,
+        width: 360,
         slidesPerView: 1.01,
         slidesPerColumn: 1.5,
-        // centeredSlides: true,
+        centeredSlides: true,
         spaceBetween: 10,
     });
     $('.slick').slick({

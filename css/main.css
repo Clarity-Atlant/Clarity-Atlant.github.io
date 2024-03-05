@@ -19,7 +19,7 @@
   background-color: #1E8702;
   border: 1px solid #1E8702;
   color: #fff;
-  margin-right: 29px;
+  margin-right: 50px;
   width: 139px;
   height: 40px;
 }
@@ -901,6 +901,14 @@
   .main-description__technologies-description-list-item li {
     width: 280px;
   }
+  .main-description__technologies-description-list-item-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .main-description__technologies-description-list-item-list {
     padding: 20px;
   }
@@ -912,11 +920,8 @@
   }
   .main-description__technologies-description-list-item-toggle {
     cursor: pointer;
-    position: absolute;
     display: inline;
     height: 20px;
-    top: 33px;
-    right: 30px;
     width: 21px;
     height: 21px;
   }
@@ -995,6 +1000,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+.our-rates__item:not(:last-child) {
+  margin-right: 10px;
 }
 .our-rates__item-inner {
   -webkit-box-flex: 1;
@@ -1076,6 +1084,9 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .our-rates-mobile__item:not(:last-child) {
+    margin-right: 0;
   }
   .our-rates-mobile__item-inner {
     padding: 30px;
@@ -1232,6 +1243,7 @@
   .possibilities__headline {
     margin-top: 20px;
     font-size: 32px;
+    margin-left: 20px;
   }
   .possibilities__mobile-nav {
     display: -webkit-box;
@@ -1355,6 +1367,7 @@
   }
   .promo__image img {
     width: 357px;
+    margin-left: -25px;
   }
   .promo__main {
     width: 100%;
@@ -1400,6 +1413,7 @@
     margin-top: -10px;
   }
   .promo__main-bottom-price {
+    margin-right: 50px;
     text-align: center;
   }
   .promo__main-description {

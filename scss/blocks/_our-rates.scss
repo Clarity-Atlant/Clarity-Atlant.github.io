@@ -10,9 +10,9 @@
         // flex-basis: 33%;
         display: flex;
         flex-direction: column;
-        // &:not(:last-child) {
-        //     margin-right: 10px;
-        // }
+        &:not(:last-child) {
+            margin-right: 10px;
+        }
         &-inner {
             flex: 1 1 auto;
             &-price {
@@ -79,6 +79,9 @@
                 // flex-basis: 33%;
                 display: flex;
                 flex-direction: column;
+                &:not(:last-child) {
+                    margin-right: 0;
+                }
                 &-inner {
                     padding: 30px;
                     flex: 1 1 auto;

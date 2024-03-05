@@ -125,6 +125,10 @@
                         li {
                             width: 280px;
                         }
+                        &-inner {
+                            display: flex;
+                            align-items: center;
+                        }
                         &-list {
                             padding: 20px;
                         }
@@ -136,11 +140,11 @@
                         }
                         &-toggle {
                             cursor: pointer;
-                            position: absolute;
+                            // position: absolute;
                             display: inline;
                             height: 20px;
-                            top: 33px;
-                            right: 30px;
+                            // top: 33px;
+                            // right: 30px;
                             width: 21px;
                             height: 21px;
                         }
