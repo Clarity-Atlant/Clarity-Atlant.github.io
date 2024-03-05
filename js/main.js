@@ -44,17 +44,28 @@ $(document).ready(function() {
         // }
     });
     const swiper = new Swiper('.swiper', {
-        width: 330,
+        width: 370,
+        slidesPerView: 1.01,
+        slidesPerColumn: 1.5,
+        // centeredSlides: true,
+        spaceBetween: 15,
+    });
+    const swiperIntentions = new Swiper('.swiper-intentions', {
+        width: 430,
+        slidesPerView: 1.01,
+        slidesPerColumn: 1.5,
+        // centeredSlides: true,
+        spaceBetween: 10,
     });
     $('.slick').slick({
-        slidesToShow: 1,
+        slidesToShow: 1.2,
         slidesToScroll: 1,
         arrows: false,
         loop: false,
         centerMode: true,
         variableWidth: true,
         mobileFirst: true,
-        width: '330px',
+        width: 330,
     });
     $('.intentions__item-bottom-image').mouseenter(function() {
         $(this).find('img').attr('src', 'img/work-black.png')

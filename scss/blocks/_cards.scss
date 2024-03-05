@@ -49,7 +49,7 @@
             display: flex !important;
             margin: 30px 0 150px;
             &__item {
-                margin-left: 20px;
+                // margin-left: 20px;
                 display: flex;
                 position: relative;
                 flex-direction: column;
@@ -57,13 +57,13 @@
                 height: 323px;
                 border-radius: 35px;
                 background-color: #fff;
-                &--outer {
-                    margin-left: 6px !important;
-                }
+                // &--outer {
+                //     margin-left: 10px !important;
+                // }
                 &-price {
                     position: relative;
                     flex: 1 1 auto;
-                    width: 335px;
+                    // width: 335px;
                     &-inner {
                         position: absolute;
                         display: inline;

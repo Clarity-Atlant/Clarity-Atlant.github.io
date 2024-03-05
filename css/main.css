@@ -95,7 +95,6 @@
     margin: 30px 0 150px;
   }
   .cards-mobile__item {
-    margin-left: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -109,15 +108,11 @@
     border-radius: 35px;
     background-color: #fff;
   }
-  .cards-mobile__item--outer {
-    margin-left: 6px !important;
-  }
   .cards-mobile__item-price {
     position: relative;
     -webkit-box-flex: 1;
         -ms-flex: 1 1 auto;
             flex: 1 1 auto;
-    width: 335px;
   }
   .cards-mobile__item-price-inner {
     position: absolute;
@@ -721,11 +716,8 @@
   -webkit-text-decoration-color: white;
           text-decoration-color: white;
 }
-.intentions__item:not(:first-child) {
-  margin-left: 0px;
-}
 .intentions__item-illustration {
-  width: 390px;
+  width: 100%;
   height: 416px;
   border-radius: 35px 35px 0px 0px;
 }
@@ -739,7 +731,6 @@
           flex-direction: column;
   position: relative;
   background-color: #0DAA61;
-  width: 390px;
   height: 224px;
   border-radius: 0 0 20px 20px;
   margin-top: -5px;
@@ -765,70 +756,6 @@
   bottom: 10px;
   left: 10px;
 }
-.intentions-mobile {
-  display: none !important;
-}
-@media (max-width: 575px) {
-  .intentions {
-    display: none;
-  }
-  .intentions-mobile {
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
-    display: flex !important;
-  }
-  .intentions-mobile__item {
-    width: 360px !important;
-    padding: 20px;
-    text-decoration: none;
-  }
-  .intentions-mobile__item h3:hover {
-    text-decoration: underline;
-    -webkit-text-decoration-color: white;
-            text-decoration-color: white;
-  }
-  .intentions-mobile__item-illustration {
-    height: 416px;
-    border-radius: 35px 35px 0px 0px;
-  }
-  .intentions-mobile__item-bottom {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    position: relative;
-    background-color: #0DAA61;
-    width: 390px;
-    height: 224px;
-    border-radius: 0 0 20px 20px;
-    margin-top: -5px;
-  }
-  .intentions-mobile__item-bottom-inner {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 auto;
-            flex: 1 1 auto;
-    color: #fff;
-  }
-  .intentions-mobile__item-bottom-inner h3 {
-    width: 185px;
-    margin: 10px 0 0 10px;
-  }
-  .intentions-mobile__item-bottom-inner p {
-    text-transform: uppercase;
-    margin-left: 10px;
-  }
-  .intentions-mobile__item-bottom-image {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    bottom: 10px;
-    left: 10px;
-  }
-}
-
 .main-description {
   height: 1605px;
   background-color: #fff;
