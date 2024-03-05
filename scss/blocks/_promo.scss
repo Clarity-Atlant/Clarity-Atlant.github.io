@@ -43,7 +43,7 @@
                     line-height: 25px;
                     text-decoration: none;
                     span {
-                        margin-top: -15px;
+                        margin-left: 38px;
                         width: 162px;
                     }
                     &:hover span {
@@ -77,14 +77,14 @@
             margin: 0 auto;
             img {
                 width: 357px;
-                margin-left: -25px;
+                // margin-left: -25px;
             }
         }
         &__main {
             width: 100%;
             display: flex;
             flex-direction: column;
-            padding: 0 10px;
+            // padding: 0 10px;
             &-header {
                 align-self: center;
                 font-size: 36px;
@@ -92,6 +92,9 @@
                 line-height: 41px;
             }
             &-bottom {
+                display: flex;
+                flex-direction: column;
+                
                 &-work {
                     display: flex;
                     flex-direction: column;
@@ -99,7 +102,11 @@
                     &-start {
                         display: flex;
                         margin-top: 20px;
-                        margin-left: -20px;
+                        // margin-left: -20px;
+                        span {
+                            margin-top: -15px;
+                            margin-left: 0;
+                        }
                     }
                     &-button {
                         width: 85%;
@@ -110,7 +117,6 @@
                     }
                 }
                 &-price {
-                    margin-right: 50px;
                     text-align: center;
                 }
             }
