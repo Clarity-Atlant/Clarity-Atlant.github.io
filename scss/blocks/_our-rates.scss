@@ -10,9 +10,9 @@
         // flex-basis: 33%;
         display: flex;
         flex-direction: column;
-        &:not(:last-child) {
-            margin-right: 10px;
-        }
+        // &:not(:last-child) {
+        //     margin-right: 10px;
+        // }
         &-inner {
             flex: 1 1 auto;
             &-price {
@@ -72,7 +72,7 @@
             margin-bottom: 30px;
             &__item {
                 width: 330px;
-                margin-left: 7px !important;
+                // margin-left: 7px !important;
                 height: 517px !important;
                 background-color: #fff;
                 border-radius: 35px;
@@ -129,6 +129,7 @@
                 }
                 &-short-description {
                     width: 232px;
+                    margin-top: 20px;
                     font-size: 29px;
                     font-weight: 700;
                     line-height: 32px;

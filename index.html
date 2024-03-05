@@ -186,56 +186,6 @@
                     </a>
                 </div>
             </div>
-            <div class="intentions-mobile slick">
-                <a href="#" class="intentions-mobile__item swiper-slide">
-                    <img class="intentions-mobile__item-illustration" src="img/illustration-1.png" alt="#">
-                    <div class="intentions-mobile__item-bottom">
-                        <div class="intentions-mobile__item-bottom-inner">
-                            <h3>Для малых хозяйств</h3>
-                            <p>до 1 600 га</p>
-                        </div>
-                        <div class="intentions-mobile__item-bottom-image">
-                            <img src="img/arrow.png" alt="#">
-                        </div>
-                    </div>
-                </a>
-                <a href="#" class="intentions-mobile__item swiper-slide">
-                    <img class="intentions-mobile__item-illustration" src="img/illustration-2.png" alt="#">
-                    <div class="intentions-mobile__item-bottom">
-                        <div class="intentions-mobile__item-bottom-inner">
-                            <h3>Для средних хозяйств</h3>
-                            <p>до 6 000 га</p>
-                        </div>
-                        <div class="intentions-mobile__item-bottom-image">
-                            <img src="img/arrow.png" alt="#">
-                        </div>
-                    </div>
-                </a>
-                <a href="#" class="intentions-mobile__item swiper-slide">
-                    <img class="intentions-mobile__item-illustration" src="img/illustration-3.png" alt="#">
-                    <div class="intentions-mobile__item-bottom">
-                        <div class="intentions-mobile__item-bottom-inner">
-                            <h3>Для крупных хозяйств</h3>
-                            <p>до 12 000 га</p>
-                        </div>
-                        <div class="intentions-mobile__item-bottom-image">
-                            <img src="img/arrow.png" alt="#">
-                        </div>
-                    </div>
-                </a>
-                <a href="#" class="intentions-mobile__item swiper-slide">
-                    <img class="intentions-mobile__item-illustration" src="img/illustration-4.png" alt="#">
-                    <div class="intentions-mobile__item-bottom">
-                        <div class="intentions-mobile__item-bottom-inner">
-                            <h3>Для агрохолдингов</h3>
-                            <p>cвыше 12 000 га</p>
-                        </div>
-                        <div class="intentions-mobile__item-bottom-image">
-                            <img src="img/arrow.png" alt="#">
-                        </div>
-                    </div>
-                </a>
-            </div>
             <div class="how-it-works">
                 <h2 class="how-it-works__headline">Как работает Умножай Урожай?</h2>
                 <div class="how-it-works__list">
@@ -573,9 +523,9 @@
                 <div class="subscription__inner">
                     <h2 class="subscription__inner-headline">Рассчитать подписку для вас</h2>
                     <form action="./" class="subscription__form">
-                        <input class="subscription__form-text-input" type="text" placeholder="Константин" required>
-                        <input class="subscription__form-text-input" type="text" placeholder="E-mail" required>
-                        <input class="subscription__form-text-input" type="text" placeholder="Телефон" required>
+                        <input class="subscription__form-text-input" type="text" minlength="3" placeholder="Константин" required>
+                        <input class="subscription__form-text-input" type="email" placeholder="E-mail" required>
+                        <input class="subscription__form-text-input" type="text" minlength="6" placeholder="Телефон" required>
                         <label class="subscription__form-text-label" for="area">Какая площадь вашей агроплатформы?</label>
                         <input class="subscription__form-text-input" id="area" type="text" placeholder="Площадь">
                         <label class="subscription__form-text-label" for="region">Где находится ваша агроплатформа?</label>
@@ -662,6 +612,7 @@
         </div>
     </div>
     <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery.maskedinput.js" type="text/javascript"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/main.js"></script>
