@@ -58,6 +58,7 @@
         }
         &__list {
             order: 1;
+            margin-top: 20px;
             &-item {
                 display: none;
                 margin-left: 10px;
@@ -75,7 +76,8 @@
             }
         }
         &__headline {
-            margin-top: 20px;
+            margin-top: 150px;
+            margin-bottom: 40px;
             font-size: 32px;
             margin-left: 20px;
         }

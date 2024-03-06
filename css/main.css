@@ -879,7 +879,7 @@
     line-height: 41px;
   }
   .main-description__list {
-    padding: 0;
+    padding: 0 20px;
   }
   .main-description__list-item {
     -ms-flex-preferred-size: auto;
@@ -897,6 +897,9 @@
   }
   .main-description__technologies-description {
     padding: 20px;
+  }
+  .main-description__technologies-description-button {
+    margin: 30px auto 0;
   }
   .main-description__technologies-description-list {
     padding: 20px;
@@ -1226,6 +1229,7 @@
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
+    margin-top: 20px;
   }
   .possibilities__list-item {
     display: none;
@@ -1244,7 +1248,8 @@
        object-fit: cover;
   }
   .possibilities__headline {
-    margin-top: 20px;
+    margin-top: 150px;
+    margin-bottom: 40px;
     font-size: 32px;
     margin-left: 20px;
   }
