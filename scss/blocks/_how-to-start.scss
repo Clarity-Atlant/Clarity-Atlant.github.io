@@ -46,23 +46,23 @@
         display: flex;
         position: absolute;
         &--first {
-            top: 0;
+            top: -10px;
             left: 150px;
         }
         &--second {
-            top: 40px;
+            top: 30px;
             left: 650px;
         }
         &--third {
-            top: 440px;
+            top: 430px;
             left: 150px;
         }
         &--fourth {
-            top: 660px;
+            top: 650px;
             left: 650px;
         }
         &--fifth {
-            top: 880px;
+            top: 870px;
             left: 150px;
         }
         &-inner {
