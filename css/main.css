@@ -827,7 +827,6 @@
 }
 .main-description__list-item {
   padding: 25px;
-  padding-left: 0;
   margin-left: -15px;
   -ms-flex-preferred-size: 26%;
       flex-basis: 26%;
@@ -852,6 +851,8 @@
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
+}
+.main-description__technologies-description p {
   opacity: 0.8;
 }
 .main-description__technologies-description-button {
