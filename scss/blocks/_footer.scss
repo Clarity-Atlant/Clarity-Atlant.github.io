@@ -34,13 +34,29 @@
                 &:not(:first-child) {
                     margin-top: 15px;
                 }
-                &:hover {
-                    text-decoration: underline;
-                    text-underline-offset: 5px;
-                }
+                // &:hover {
+                //     text-decoration: underline;
+                //     text-underline-offset: 5px;
+                // }
                 color: #1E1E1E !important;
                 a {
+                    display: inline;
+                    position: relative;
                     text-decoration: none;
+                    &:after {
+                        display: block;
+                        position: absolute;
+                        left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+                        width: 0;/*задаём длинну линии до наведения курсора*/
+                        height: 2px; /*задаём ширину линии*/
+                        background-color: #1E1E1E; /*задаём цвет линии*/
+                        content: "";
+                        transition: width 0.3s ease-out; /*задаём время анимации*/
+                    }
+                    &:hover:after,
+                    &:focus:after {
+                        width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+                    }  
                 }
                 a:visited {
                     color: #1E1E1E !important;
@@ -77,6 +93,7 @@
             flex-direction: column;
             flex: 1 1 auto;
             &-item {
+                position: relative;
                 &:not(:first-child) {
                     margin-top: 15px;
                 }
@@ -86,9 +103,23 @@
                 &:visited {
                     color: #1E1E1E;
                 }
-                &:hover {
-                    text-decoration: underline;
-                    text-underline-offset: 5px;
+                // &:hover {
+                //     text-decoration: underline;
+                //     text-underline-offset: 5px;
+                // }
+                &:after {
+                    display: block;
+                    position: absolute;
+                    left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+                    width: 0;/*задаём длинну линии до наведения курсора*/
+                    height: 2px; /*задаём ширину линии*/
+                    background-color: #1E1E1E; /*задаём цвет линии*/
+                    content: "";
+                    transition: width 0.3s ease-out; /*задаём время анимации*/
+                }
+                &:hover:after,
+                &:focus:after {
+                    width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
                 }
             }
         }
