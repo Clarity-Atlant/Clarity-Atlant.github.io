@@ -169,6 +169,13 @@
         }
         &__contacts {
             margin-left: 10px;
+            &-list {
+                &-item {
+                    &:after:hover {
+                        width: 0;
+                    }
+                }
+            }
         }
         &__mobile {
             &-bottom {
