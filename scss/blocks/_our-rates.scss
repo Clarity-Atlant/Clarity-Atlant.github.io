@@ -65,7 +65,7 @@
     &-mobile {
         display: none !important;
     }
-    @media (max-width: 575px) {
+    @media (max-width: 1024px) {
         display: none;
         &-mobile {
             display: flex !important;

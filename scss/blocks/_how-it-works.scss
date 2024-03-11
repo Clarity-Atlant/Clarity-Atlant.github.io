@@ -22,9 +22,9 @@
                 font-weight: 700;
                 line-height: 32px;
             }
-            p {
-                width: 295px;
-            }
+            // p {
+            //     width: 295px;
+            // }
             &:not(:first-child) {
                 margin-left: 50px;
             }
@@ -37,7 +37,7 @@
             // }
         }
     }
-    @media (max-width: 575px) {
+    @media (max-width: 1024px) {
         width: 100%;
         height: auto;
         &__headline {

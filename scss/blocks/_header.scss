@@ -56,7 +56,7 @@
     &__mobile-menu {
         display: none;
     }
-    @media (max-width: 575px) {
+    @media (max-width: 1024px) {
         position: fixed;
         left: 2%;
         width: 96%;

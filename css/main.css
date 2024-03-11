@@ -84,7 +84,7 @@
 .cards-mobile {
   display: none !important;
 }
-@media (max-width: 575px) {
+@media (max-width: 1024px) {
   .cards {
     display: none;
   }
@@ -308,7 +308,7 @@
 .footer__mobile-bottom {
   display: none;
 }
-@media (max-width: 575px) {
+@media (max-width: 1024px) {
   .footer__bottom {
     display: none;
   }
@@ -428,7 +428,7 @@
 .header__mobile-menu {
   display: none;
 }
-@media (max-width: 575px) {
+@media (max-width: 1024px) {
   .header {
     position: fixed;
     left: 2%;
@@ -482,16 +482,13 @@
   font-weight: 700;
   line-height: 32px;
 }
-.how-it-works__list-item p {
-  width: 295px;
-}
 .how-it-works__list-item:not(:first-child) {
   margin-left: 50px;
 }
 .how-it-works__list-item:first-child img {
   margin-bottom: 10px;
 }
-@media (max-width: 575px) {
+@media (max-width: 1024px) {
   .how-it-works {
     width: 100%;
     height: auto;
@@ -645,7 +642,7 @@
 .how-to-start__mobile-inner {
   display: none;
 }
-@media (max-width: 575px) {
+@media (max-width: 1024px) {
   .how-to-start {
     padding: 50px 20px 150px;
   }
@@ -816,6 +813,11 @@
 .main-description__headline--second {
   width: 759px;
 }
+@media (max-width: 575px) {
+  .main-description__headline {
+    width: auto;
+  }
+}
 .main-description__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -909,17 +911,26 @@
 .main-description__technologies-description-list-item-list {
   display: none;
 }
-@media (max-width: 575px) {
+@media (max-width: 1024px) {
   .main-description {
     height: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .main-description__headline {
     padding: 30px 15px;
-    width: 310px;
     font-size: 36px;
     font-weight: 700;
     line-height: 41px;
   }
+}
+@media (max-width: 1024px) and (max-width: 767px) {
+  .main-description__headline {
+    width: 310px;
+  }
+}
+@media (max-width: 1024px) {
   .main-description__list {
     padding: 0 20px;
   }
@@ -931,6 +942,8 @@
     color: #6E6E73;
     width: 300px;
   }
+}
+@media (max-width: 1024px) {
   .main-description__technologies-inner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -978,6 +991,8 @@
     border-bottom: 1px solid #000;
     margin-bottom: 50px;
   }
+}
+@media (max-width: 1024px) and (max-width: 575px) {
   .main-description__technologies-description p {
     width: 300px;
   }
@@ -986,7 +1001,7 @@
 .mobile-menu-overlay {
   display: none;
 }
-@media (max-width: 575px) {
+@media (max-width: 1024px) {
   .mobile-menu-overlay {
     position: fixed;
     z-index: 2;
@@ -1111,7 +1126,7 @@
 .our-rates-mobile {
   display: none !important;
 }
-@media (max-width: 575px) {
+@media (max-width: 1024px) {
   .our-rates {
     display: none;
   }
@@ -1199,6 +1214,9 @@
   }
 }
 
+.possibilities {
+  text-align: center;
+}
 .possibilities__headline {
   margin-top: 150px;
   font-size: 47px;
@@ -1214,6 +1232,9 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -1260,7 +1281,7 @@
 .possibilities__mobile-nav {
   display: none;
 }
-@media (max-width: 575px) {
+@media (max-width: 1024px) {
   .possibilities__inner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1402,7 +1423,7 @@
   line-height: 32px;
   opacity: 0.34;
 }
-@media (max-width: 575px) {
+@media (max-width: 1024px) {
   .promo {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1472,8 +1493,18 @@
   .promo__main-bottom-work-image {
     margin-top: -10px;
   }
+  .promo__main-bottom-price {
+    text-align: center;
+  }
   .promo__main-description {
     width: 350px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 576px) {
+  .promo__main-description {
+    margin-top: 20px;
+    width: auto;
+    text-align: center;
   }
 }
 
@@ -1597,7 +1628,7 @@
 .subscription__form-submit-button:hover {
   background-color: #6E6E73;
 }
-@media (max-width: 575px) {
+@media (max-width: 1024px) {
   .subscription__inner {
     display: block;
     margin-top: 0;
@@ -1651,7 +1682,7 @@ a {
   width: 1190px;
   margin: 0 auto;
 }
-@media (max-width: 575px) {
+@media (max-width: 1024px) {
   .container {
     width: 90%;
   }
@@ -1664,7 +1695,7 @@ a {
   font-size: 47px;
   width: 600px;
 }
-@media (max-width: 575px) {
+@media (max-width: 1024px) {
   .headline {
     padding: 20px;
     font-size: 32px;
