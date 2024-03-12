@@ -105,10 +105,14 @@
         height: auto;
         justify-content: center;
         &__headline {
+            margin: 0 auto;
+            text-align: center;
+            // justify-content: center;
             padding: 30px 15px;
             font-size: 36px;
             font-weight: 700;
             line-height: 41px;
+            align-items: center;
         }
         @media (max-width: 767px) {
             &__headline {

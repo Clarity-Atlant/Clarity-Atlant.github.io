@@ -931,10 +931,15 @@
             justify-content: center;
   }
   .main-description__headline {
+    margin: 0 auto;
+    text-align: center;
     padding: 30px 15px;
     font-size: 36px;
     font-weight: 700;
     line-height: 41px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 @media (max-width: 1024px) and (max-width: 767px) {
@@ -1315,7 +1320,7 @@
     display: block;
   }
   .possibilities__image {
-    margin: 0;
+    margin: 0 auto;
   }
   .possibilities__image img {
     width: 400px;
