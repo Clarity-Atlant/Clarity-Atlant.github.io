@@ -86,6 +86,14 @@
             }
         }
     }
+    @media (max-width: 1400px) {
+        &__inner {
+            flex-direction: column;
+            &-headline {
+                align-self: center;
+            }
+        }
+    }
     @media (max-width: 1024px) {
         &__inner {
             display: block;

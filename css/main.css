@@ -1348,6 +1348,7 @@
   display: -ms-flexbox;
   display: flex;
   margin: 150px auto 0;
+  padding: 10px;
 }
 .promo__main {
   width: 500px;
@@ -1627,6 +1628,18 @@
 }
 .subscription__form-submit-button:hover {
   background-color: #6E6E73;
+}
+@media (max-width: 1400px) {
+  .subscription__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .subscription__inner-headline {
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
 }
 @media (max-width: 1024px) {
   .subscription__inner {
