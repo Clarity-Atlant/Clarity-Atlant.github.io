@@ -15,7 +15,7 @@
         }
     }
     &__form {
-        margin-left: 151px;
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
         label {
@@ -89,6 +89,7 @@
     @media (max-width: 1400px) {
         &__inner {
             flex-direction: column;
+            margin: 20px;
             &-headline {
                 align-self: center;
             }

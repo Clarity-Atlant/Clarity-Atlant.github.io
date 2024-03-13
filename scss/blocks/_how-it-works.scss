@@ -62,4 +62,29 @@
             }
         }
     }
+    @media (max-width: 575px) {
+        width: 100%;
+        height: auto;
+        &__headline {
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 37px;
+            margin-top: 50px;
+            padding: 50px 20px;
+            width: 270px;
+            text-align: left;
+        }
+        &__list {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            &-item {
+                margin-left: 0 !important;
+                margin-bottom: 50px;
+                h3 {
+                    margin-bottom: 36px;
+                }
+            }
+        }
+    }
 }

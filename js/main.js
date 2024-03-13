@@ -44,14 +44,14 @@ $(document).ready(function() {
         // }
     });
     const swiper = new Swiper('.swiper', {
-        width: 330,
+        width: 260,
         slidesPerView: 1.01,
         slidesPerColumn: 1.5,
         centeredSlides: true,
         spaceBetween: 10,
     });
     const swiperIntentions = new Swiper('.swiper-intentions', {
-        width: 330,
+        width: 280,
         slidesPerView: 1.01,
         slidesPerColumn: 1.5,
         centeredSlides: true,
