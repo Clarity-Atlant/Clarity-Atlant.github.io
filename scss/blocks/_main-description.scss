@@ -188,6 +188,7 @@
         padding: 20px;
         &__headline {
             width: 240px !important;
+            word-break: break-word;
             margin: 0 auto;
             text-align: center;
             // justify-content: center;
@@ -205,11 +206,11 @@
         &__list {
             padding: 0 20px;
             &-item {
-                margin-left: 0;
+                margin-left: 0 !important;
                 flex-basis: auto;
                 p {
                     color: #6E6E73;
-                    width: 300px;
+                    width: auto;
                 }
             }
         }

@@ -800,6 +800,7 @@
 }
 .intentions__item {
   text-decoration: none;
+  margin-left: 20px;
 }
 .intentions__item h3:hover {
   text-decoration: underline;
@@ -846,6 +847,67 @@
   bottom: 10px;
   left: 10px;
 }
+@media (max-width: 1024px) {
+  .intentions {
+    display: none;
+  }
+  .intentions-mobile {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .intentions-mobile__item {
+    width: 360px !important;
+    padding: 20px;
+    text-decoration: none;
+  }
+  .intentions-mobile__item h3:hover {
+    text-decoration: underline;
+    -webkit-text-decoration-color: white;
+            text-decoration-color: white;
+  }
+  .intentions-mobile__item-illustration {
+    height: 416px;
+    border-radius: 35px 35px 0px 0px;
+  }
+  .intentions-mobile__item-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    background-color: #0DAA61;
+    width: 390px;
+    height: 224px;
+    border-radius: 0 0 20px 20px;
+    margin-top: -5px;
+  }
+  .intentions-mobile__item-bottom-inner {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    color: #fff;
+  }
+  .intentions-mobile__item-bottom-inner h3 {
+    width: 185px;
+    margin: 10px 0 0 10px;
+  }
+  .intentions-mobile__item-bottom-inner p {
+    text-transform: uppercase;
+    margin-left: 10px;
+  }
+  .intentions-mobile__item-bottom-image {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 10px;
+    left: 10px;
+  }
+}
+
 .main-description {
   height: 1605px;
   background-color: #fff;
@@ -1061,6 +1123,7 @@
   }
   .main-description__headline {
     width: 240px !important;
+    word-break: break-word;
     margin: 0 auto;
     text-align: center;
     padding: 30px 15px;
@@ -1082,13 +1145,13 @@
     padding: 0 20px;
   }
   .main-description__list-item {
-    margin-left: 0;
+    margin-left: 0 !important;
     -ms-flex-preferred-size: auto;
         flex-basis: auto;
   }
   .main-description__list-item p {
     color: #6E6E73;
-    width: 300px;
+    width: auto;
   }
 }
 @media (max-width: 575px) {
@@ -1517,6 +1580,9 @@
   }
   .possibilities__list-item--active {
     display: block;
+  }
+  .possibilities__image {
+    text-align: center;
   }
   .possibilities__image img {
     width: 285px;
