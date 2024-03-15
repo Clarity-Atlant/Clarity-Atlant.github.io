@@ -16,6 +16,9 @@
         list-style-type: none;
         &-item {
             margin-left: 30px;
+            &:first-child {
+                margin-left: 103px !important;
+            }
             a {
                 position: relative;
                 text-decoration: none;
@@ -47,7 +50,7 @@
     }
     &__buttons {
         display: flex;
-        margin-left: 104px;
+        margin-left: 90px;
         &-item {
             margin-left: 16px;
             // color: #1E1E1E;

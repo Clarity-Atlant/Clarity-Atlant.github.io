@@ -1,17 +1,3 @@
-@import 'blocks/button.scss';
-@import 'blocks/cards.scss';
-@import 'blocks/footer.scss';
-@import 'blocks/header.scss';
-@import 'blocks/how-it-works.scss';
-@import 'blocks/how-to-start.scss';
-@import 'blocks/intentions.scss';
-@import 'blocks/main-description.scss';
-@import 'blocks/mobile-menu-overlay.scss';
-@import 'blocks/our-rates.scss';
-@import 'blocks/possibilities.scss';
-@import 'blocks/promo.scss';
-@import 'blocks/subscription.scss';
-
 * {
     font-family: Manrope;
     margin: 0;
@@ -59,3 +45,17 @@ a {
 .swiper-wrapper {
     margin-left: 10px;
 }
+
+@import 'blocks/button.scss';
+@import 'blocks/cards.scss';
+@import 'blocks/footer.scss';
+@import 'blocks/header.scss';
+@import 'blocks/how-it-works.scss';
+@import 'blocks/how-to-start.scss';
+@import 'blocks/intentions.scss';
+@import 'blocks/main-description.scss';
+@import 'blocks/mobile-menu-overlay.scss';
+@import 'blocks/our-rates.scss';
+@import 'blocks/possibilities.scss';
+@import 'blocks/promo.scss';
+@import 'blocks/subscription.scss';

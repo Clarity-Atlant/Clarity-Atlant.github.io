@@ -1,6 +1,6 @@
 .promo {
     display: flex;
-    margin: 150px auto 0;
+    margin: 132px -8px 0px;
     padding: 10px;
     &__main {
         width: 500px;
@@ -15,7 +15,7 @@
             font-weight: 400;
             line-height: 28px;
             width: 450px;
-            margin-bottom: 62px;
+            margin: 30px 0 62px;
         }
         &-bottom {
             &-work {
@@ -25,6 +25,7 @@
                     width: 262px;
                     height: 55px;
                     padding: 0;
+                    line-height: 55px;
                     border-radius: 32px;
                     // margin-right: 38px;
                     &:hover {
@@ -70,6 +71,9 @@
                 }
             }
         }
+    }
+    &__image {
+        margin: -45px 40px 0;
     }
     @media (max-width: 1400px) {
         flex-direction: column;
