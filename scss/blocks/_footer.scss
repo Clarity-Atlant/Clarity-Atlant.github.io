@@ -6,9 +6,15 @@
     }
     &__bottom {
         display: flex;
+        justify-content: space-between;
         width: 100%;
         margin-top: 70px;
         padding-bottom: 50px;
+        &-inner {
+            display: flex;
+            justify-content: space-between;
+            width: 710px;
+        }
     }
     &__left {
         display: flex;
@@ -72,7 +78,6 @@
         }
     }
     &__privacy-policy {
-        margin-left: 168px;
         color: #1E1E1E;
     }
     &__icons {
@@ -124,7 +129,7 @@
             }
         }
         &-creator {
-            margin-left: 453px;
+            margin-right: 17px;
             text-decoration: underline;
             text-underline-offset: 4px;
             &:visited {
@@ -183,6 +188,7 @@
                 align-items: center;
                 margin-top: 40px;
                 margin-left: 10px;
+                padding-bottom: 40px;
                 display: flex;
                 flex-direction: column;
                 &-inner {

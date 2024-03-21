@@ -1,7 +1,7 @@
 .how-it-works {
     background-color: #fff;
     border-radius: 50px;
-    margin: 150px auto 0;
+    // margin: 145px -95px 0;
     // width: 1380px;
     height: 779px;
     &__headline {
@@ -22,6 +22,12 @@
                 font-weight: 700;
                 line-height: 32px;
             }
+            p {
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 24px;
+                color: #6E6E73;
+            }
             // p {
             //     width: 295px;
             // }
@@ -37,8 +43,12 @@
             // }
         }
     }
+    @media (min-width: 1800px) {
+        width: 1600px;
+        margin-left: 0px;
+    }
     @media (max-width: 1024px) {
-        width: 100%;
+        // width: 100%;
         height: auto;
         &__headline {
             font-size: 32px;
@@ -63,7 +73,7 @@
         }
     }
     @media (max-width: 575px) {
-        width: 100%;
+        // width: 100%;
         height: auto;
         &__headline {
             font-size: 32px;

@@ -11,6 +11,14 @@
     <link rel="stylesheet" href="css/main.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <!-- <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/base.min.css"
+    />
 </head>
 <body>
     <div class="wrapper">
@@ -95,7 +103,7 @@
                         <div class="cards-mobile__item">
                             <div class="cards-mobile__item-price">
                                 <div class="cards-mobile__item-price-inner">
-                                    +15%
+                                    <p>+15%</p>
                                 </div>
                             </div>
                             <div class="cards-mobile__item-text">Прирост урожайности</div>
@@ -105,7 +113,7 @@
                         <div class="cards-mobile__item">
                             <div class="cards-mobile__item-price">
                                 <div class="cards-mobile__item-price-inner">
-                                    x2
+                                    <p>x2</p>
                                 </div>
                             </div>
                             <div class="cards-mobile__item-text">Общая производительность с/х предприятия</div>
@@ -115,7 +123,7 @@
                         <div class="cards-mobile__item">
                             <div class="cards-mobile__item-price">
                                 <div class="cards-mobile__item-price-inner">
-                                    -50%
+                                    <p>-50%</p>
                                 </div>
                             </div>
                             <div class="cards-mobile__item-text">Экономия затрат</div>
@@ -125,7 +133,7 @@
                         <div class="cards-mobile__item">
                             <div class="cards-mobile__item-price">
                                 <div class="cards-mobile__item-price-inner">
-                                    +25%
+                                    <p>+25%</p>
                                 </div>
                             </div>
                             <div class="cards-mobile__item-text">К рентабельности бизнеса</div>
@@ -300,27 +308,27 @@
                     </div>
                     <div class="main-description__list-item">
                         <img src="img/main-description-image-2.png" alt="#">
-                        <h3>История и прогноз погоды</h3>
+                        <h3>История<br> и прогноз погоды</h3>
                         <p>Используйте исторические данные о климате и актуальные данные о погоде на местности с точностью до конкретного поля</p>
                     </div>
                     <div class="main-description__list-item">
                         <img src="img/main-description-image-3.png" alt="#">
-                        <h3>Планирование сезона</h3>
+                        <h3>Планирование<br> сезона</h3>
                         <p>Формируйте технологические карты, привязывайте ко всем операциям ресурсы (технику, персонал, семена, удобрения с СЗР)</p>
                     </div>
                     <div class="main-description__list-item">
                         <img src="img/main-description-image-4.png" alt="#">
-                        <h3>Люди и техника</h3>
+                        <h3>Люди<br> и техника</h3>
                         <p>Добавляйте технику и оборудование своего предприятия, ведите учет персонала</p>
                     </div>
                     <div class="main-description__list-item">
                         <img src="img/main-description-image-5.png" alt="#">
-                        <h3>Справочник культур</h3>
+                        <h3>Справочник<br> культур</h3>
                         <p>Справочники по всем культурам, удобрениям, оборудованию и технике, которые используются в с/х</p>
                     </div>
                     <div class="main-description__list-item">
                         <img src="img/main-description-image-6.png" alt="#">
-                        <h3>Журнал севооборота</h3>
+                        <h3>Журнал<br> севооборота</h3>
                         <p>Используйте рекомендации по севообороту и его историю для эффективного землепользования</p>
                     </div>
                 </div>      
@@ -476,7 +484,134 @@
         <div class="how-to-start">
             <div class="container">
                 <h2 class="how-to-start__headline">5 простых шагов, как начать работу в агроплатформе</h2>
-                <div class="how-to-start__inner">
+                <!------ Include the above in your HEAD tag ---------->
+
+                <div class="mobile-hide">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="timeline-centered">
+                        <article class="timeline-entry left-aligned">
+                            
+                            <div class="timeline-entry-inner">
+                                
+                                <div class="timeline-icon bg-secondary">
+                                    <i class="entypo-suitcase"></i>
+                                </div>
+                                <div class="timeline-label">
+                                    <h2><span>01</span> Регистрация</h2>
+                                    <p>Зарегистрирутесь и создайте ваше первое поле, просто указав его границы на карте.</p>
+                                </div>
+                                
+                            </div>
+                            
+                        </article>
+                        
+                        <article class="timeline-entry">
+                            
+                            <div class="timeline-entry-inner">
+                                
+                                <div class="timeline-icon bg-success">
+                                    <i class="entypo-feather"></i>
+                                </div>
+                                
+                                <div class="timeline-label">
+                                    <h2><span>02</span> Заполните данные</h2>
+                                    <p>Заполните данные агрохимического и агрофизического анализа почвы.</p>
+                                </div>
+                            </div>
+                            
+                        </article>
+                        
+                        <article class="timeline-entry left-aligned">
+                            
+                            <div class="timeline-entry-inner">
+                                
+                                <div class="timeline-icon bg-warning">
+                                    <i class="entypo-camera"></i>
+                                </div>
+                                
+                                <div class="timeline-label">
+                                    <h2><span>03</span> Создайте севооборот</h2>
+                                    <p>Создайте севооборот, назначьте его на поле и выберите сорт.</p>   
+                                </div>
+                            </div>
+                            
+                        </article>
+                         
+                        <article class="timeline-entry">
+                            
+                            <div class="timeline-entry-inner">
+                                
+                                <div class="timeline-icon bg-info">
+                                    <i class="entypo-location"></i>
+                                </div>
+                                
+                                <div class="timeline-label">
+                                    <h2><span>04</span> Добавьте своё оборудование</h2>
+                                    <p>Добавьте технику, оборудование и стационарные объекты для оптимизации работ и транспортно-логистических процессов.</p>
+                                    
+                                </div>
+                            </div>
+                            
+                        </article>
+                        
+                        
+                        
+                        
+                        <article class="timeline-entry left-aligned begin">
+                        
+                            <div class="timeline-entry-inner">
+                                
+                                <div class="timeline-icon" style="-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg);">
+                                    <i class="entypo-flight"></i>
+                                </div>
+    
+                                <div class="timeline-label">
+                                    <h2><span>05</span> Добавьте персонал</h2>
+                                    <p>Нанимайте на работу, планируйте отпуска, привязывайте к технике, оборудованию и необходимым работам.</p>
+                                    
+                                </div>
+                                
+                            </div>
+                            
+                        </article>
+                        
+                    </div>
+                </div>
+                    </div>
+                </div>
+                <div class="mobile-show">
+                    <div class="container mt-5 mb-5">
+                        <div class="row">
+                            <div class="col-md-6 offset-md-3">
+                                <ul class="timeline-mobile">
+                                    <li>
+                                        <h2><span>01</span> Регистрация</h2>
+                                        <p>Зарегистрирутесь и создайте ваше первое поле, просто указав его границы на карте.</p>
+                                    </li>
+                                    <li>
+                                        <h2><span>02</span> Заполните данные</h2>
+                                        <p>Заполните данные агрохимического и агрофизического анализа почвы.</p>
+                                    </li>
+                                    <li>
+                                        <h2><span>03</span> Создайте севооборот</h2>
+                                        <p>Создайте севооборот, назначьте его на поле и выберите сорт.</p>
+                                    </li>
+                                    <li>
+                                        <h2><span>04</span> Добавьте своё оборудование</h2>
+                                        <p>Добавьте технику, оборудование и стационарные объекты для оптимизации работ и транспортно-логистических процессов.</p>
+                                    </li>
+                                    <li>
+                                        <h2><span>05</span> Добавьте персонал</h2>
+                                        <p>Нанимайте на работу, планируйте отпуска, привязывайте к технике, оборудованию и необходимым работам.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="how-to-start__inner">
                     <div class="how-to-start__left">
                         <div class="how-to-start__item how-to-start__item--first">
                             <div class="how-to-start__item-number">01</div>
@@ -501,12 +636,7 @@
                         </div>
                     </div>
                     <div class="how-to-start__center">
-                        <img class="how-to-start__dot how-to-start__dot--first" src="img/dot.png" alt="#">
-                        <img class="how-to-start__dot how-to-start__dot--second" src="img/dot.png" alt="#">
-                        <img class="how-to-start__dot how-to-start__dot--third" src="img/dot.png" alt="#">
-                        <img class="how-to-start__dot how-to-start__dot--fourth" src="img/dot.png" alt="#">
-                        <img class="how-to-start__dot how-to-start__dot--fifth" src="img/dot.png" alt="#">
-                        <img class="how-to-start__line" src="img/line.png" alt="#">
+                        <img src="img/how-to-start-line.png" alt="#">
                     </div>
                     <div class="how-to-start__right">
                         <div class="how-to-start__item how-to-start__item--second how-to-start__right-item--first">
@@ -524,8 +654,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="how-to-start__mobile-inner">
+                </div> -->
+                <!-- <div class="how-to-start__mobile-inner">
                     <div class="how-to-start__mobile-left">
                         <div class="how-to-start__mobile-left-item">
                             <img class="how-to-start__mobile-dot how-to-start__mobile-dot--first" src="img/dot.png" alt="#">
@@ -573,7 +703,7 @@
                             <div class="how-to-start__mobile-item-description">Нанимайте на работу, планируйте отпуска, привязывайте к технике, оборудованию и необходимым работам.</div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="subscription">
@@ -587,7 +717,13 @@
                         <label class="subscription__form-text-label" for="area">Какая площадь вашей агроплатформы?</label>
                         <input class="subscription__form-text-input" id="area" type="text" placeholder="Площадь">
                         <label class="subscription__form-text-label" for="region">Где находится ваша агроплатформа?</label>
-                        <input class="subscription__form-text-input" id="region" type="text" placeholder="Регион">
+                        <div class="subscription__form-wrapper">
+                            <select class="subscription__form-select" name="state">
+                                <option selected="selected">Регион</option>
+                                <option>Тверь</option>
+                                <option>Москва</option>
+                            </select>
+                        </div>
                         <div class="subscription__form-privacy-policy">
                             <input class="subscription__form-privacy-policy-checkbox" id="privacy-policy" type="checkbox">
                             <label for="privacy-policy">Я согласен с <a href="#" class="subscription__form-privacy-policy-link">политикой конфиденциальности</a></label>
@@ -642,8 +778,10 @@
                         </div>
                     </div>
                     <div class="footer__bottom">
-                        <div class="footer__copyright">© Умножай Урожай <script>document.write(new Date().getFullYear())</script></div>
-                        <a href="#" class="footer__privacy-policy">Политика конфиденциальности</a>
+                        <div class="footer__bottom-inner">
+                            <div class="footer__copyright">© Умножай Урожай <script>document.write(new Date().getFullYear())</script></div>
+                            <a href="#" class="footer__privacy-policy">Политика конфиденциальности</a>
+                        </div>
                         <a href="https://dsml.ru" class="footer__contacts-creator" target="_blank">Сделано в DSML</a>
                     </div>
                     <div class="footer__mobile-bottom">
@@ -670,6 +808,8 @@
         </div>
     </div>
     <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
     <script src="js/jquery.maskedinput.js" type="text/javascript"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

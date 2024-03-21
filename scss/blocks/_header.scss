@@ -59,6 +59,10 @@
     &__mobile-menu {
         display: none;
     }
+    @media (min-width: 1800px) {
+        justify-content: space-around;
+        width: 1600px;
+    }
     @media (max-width: 1024px) {
         position: fixed;
         left: 2%;

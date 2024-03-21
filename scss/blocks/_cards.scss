@@ -50,7 +50,7 @@
         display: none;
         &-mobile {
             display: flex !important;
-            margin: 30px 0 150px;
+            margin: 30px 0;
             &__item {
                 // margin-left: 20px;
                 display: flex;
@@ -68,17 +68,32 @@
                     flex: 1 1 auto;
                     // width: 335px;
                     &-inner {
-                        position: absolute;
-                        display: inline;
+                        position: relative;
+                        display: block;
                         top: 20px;
                         left: 20px;
-                        padding: 10px;
+                        padding: 0 20px;
+                        width: 180px;
                         height: 66px;
-                        border: 1px solid black;
-                        border-radius: 50%;
                         font-size: 54px;
                         font-weight: 700;
                         text-transform: uppercase;
+                        outline: 1px solid black;
+                        outline-offset: 5px;
+                        border-radius: 35px;
+                        p {
+                            position: absolute;
+                            left: 20px;
+                            top: -5px;
+                        }
+                        // &::before {
+                        //     content: '';
+                        //     border: 1px solid black;
+                        //     border-radius: 35px;
+                        // }
+                        // &::after {
+                        //     content: '+20%';
+                        // }
                     }
                 }
                 &-text {
