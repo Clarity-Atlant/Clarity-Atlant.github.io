@@ -107,6 +107,9 @@
                 background-color: #6E6E73;
             }
         }
+        // &-select {
+        //     display: none;
+        // }
     }
     @media (max-width: 1400px) {
         &__inner {
@@ -157,7 +160,7 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    color: #fff;
+    // color: #fff;
     padding: 15px;
     background-color: rgba(30, 30, 30, 0.15);
     width: 590px;

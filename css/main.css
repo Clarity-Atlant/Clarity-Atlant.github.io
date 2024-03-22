@@ -879,6 +879,7 @@ ul.timeline-mobile > li:before {
 .how-it-works {
   background-color: #fff;
   border-radius: 50px;
+  margin-top: 150px;
   height: 779px;
 }
 .how-it-works__headline {
@@ -958,12 +959,12 @@ ul.timeline-mobile > li:before {
     height: auto;
   }
   .how-it-works__headline {
+    margin-left: 0;
     font-size: 32px;
     font-weight: 700;
     line-height: 37px;
     margin-top: 50px;
     padding: 50px 20px;
-    width: 270px;
     text-align: left;
   }
   .how-it-works__list {
@@ -982,6 +983,11 @@ ul.timeline-mobile > li:before {
   }
   .how-it-works__list-item h3 {
     margin-bottom: 36px;
+  }
+}
+@media (max-width: 374px) {
+  .how-it-works__headline {
+    font-size: 29px;
   }
 }
 
@@ -1057,6 +1063,9 @@ ul.timeline-mobile > li:before {
     margin-top: -35px;
   }
   .how-to-start__headline {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37px;
     text-align: left;
   }
 }
@@ -1186,7 +1195,7 @@ ul.timeline-mobile > li:before {
   height: 1785px;
   background-color: #fff;
   border-radius: 50px;
-  margin-top: 30px;
+  margin-top: 150px;
 }
 .main-description__headline {
   width: 524px;
@@ -1257,16 +1266,18 @@ ul.timeline-mobile > li:before {
   opacity: 0.8;
 }
 .main-description__technologies-description-button {
-  margin-top: 30px;
+  margin-top: 15px;
   background-color: #1E8702;
   color: #fff;
   text-decoration: none;
-  width: 202px;
-  height: 20px;
+  width: 262px;
+  height: 56px;
   padding: 15px 15px 20px 25px;
   border-radius: 32px;
   font-weight: 600;
   line-height: 25px;
+  font-family: Manrope;
+  font-size: 18px;
 }
 .main-description__technologies-description-button:hover {
   -webkit-transition: 0.6s ease;
@@ -1289,7 +1300,6 @@ ul.timeline-mobile > li:before {
   color: #6E6E73;
 }
 .main-description__technologies-description-list-item li {
-  width: 380px;
   font-weight: 700;
 }
 .main-description__technologies-description-list-item-text {
@@ -1310,6 +1320,8 @@ ul.timeline-mobile > li:before {
 }
 .main-description__technologies-description-list-item-list {
   display: none;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 @media (min-width: 1800px) {
   .main-description {
@@ -1371,9 +1383,6 @@ ul.timeline-mobile > li:before {
   .main-description__technologies-description-list {
     padding: 20px;
   }
-  .main-description__technologies-description-list-item li {
-    width: 280px;
-  }
   .main-description__technologies-description-list-item-inner {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1417,12 +1426,11 @@ ul.timeline-mobile > li:before {
     padding: 20px;
   }
   .main-description__headline {
-    width: 240px !important;
+    margin-left: 0;
     word-break: break-word;
-    margin: 0 auto;
-    text-align: center;
+    text-align: left;
     padding: 30px 15px;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 700;
     line-height: 41px;
     -webkit-box-align: center;
@@ -1469,9 +1477,6 @@ ul.timeline-mobile > li:before {
   .main-description__technologies-description-list {
     padding: 20px;
   }
-  .main-description__technologies-description-list-item li {
-    width: 280px;
-  }
   .main-description__technologies-description-list-item-inner {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1504,6 +1509,12 @@ ul.timeline-mobile > li:before {
 @media (max-width: 575px) and (max-width: 575px) {
   .main-description__technologies-description p {
     width: 300px;
+  }
+}
+@media (max-width: 374px) {
+  .main-description__headline {
+    font-size: 29px;
+    padding: 30px 0;
   }
 }
 
@@ -1604,7 +1615,7 @@ ul.timeline-mobile > li:before {
 }
 .our-rates__item-inner-price-number {
   font-family: Manrope;
-  font-size: 54px;
+  font-size: 45px;
   font-weight: 700;
   line-height: 74px;
   letter-spacing: 0em;
@@ -1811,7 +1822,7 @@ ul.timeline-mobile > li:before {
   }
   .possibilities__list-item {
     display: none;
-    margin-left: 10px;
+    margin-left: 0;
     width: 300px;
   }
   .possibilities__list-item--active {
@@ -1877,25 +1888,26 @@ ul.timeline-mobile > li:before {
   }
   .possibilities__list-item {
     display: none;
-    margin-left: 10px;
-    width: 300px;
+    width: 340px;
   }
   .possibilities__list-item--active {
     display: block;
   }
   .possibilities__image {
-    text-align: center;
+    text-align: left;
   }
   .possibilities__image img {
     width: 285px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    -o-object-fit: contain;
+       object-fit: contain;
+    min-width: 100%;
   }
   .possibilities__headline {
-    margin-top: 0;
+    text-align: left;
+    margin-top: 104px;
     margin-bottom: 40px;
     font-size: 32px;
-    margin-left: 20px;
+    margin-left: 0;
   }
   .possibilities__mobile-nav {
     display: -webkit-box;
@@ -2362,7 +2374,6 @@ ul.timeline-mobile > li:before {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  color: #fff;
   padding: 15px;
   background-color: rgba(30, 30, 30, 0.15);
   width: 590px;

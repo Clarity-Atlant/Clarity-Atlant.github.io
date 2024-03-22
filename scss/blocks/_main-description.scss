@@ -2,7 +2,7 @@
     height: 1785px;
     background-color: #fff;
     border-radius: 50px;
-    margin-top: 30px;
+    margin-top: 150px;
     &__headline {
         width: 524px;
         padding: 100px 0 50px 100px;
@@ -62,16 +62,19 @@
                 opacity: 0.8;
             }
             &-button {
-                margin-top: 30px;
+                margin-top: 15px;
                 background-color: #1E8702;
                 color: #fff;
                 text-decoration: none;
-                width: 202px;
-                height: 20px;
+                width: 262px;
+                height: 56px;
                 padding: 15px 15px 20px 25px;
                 border-radius: 32px;
                 font-weight: 600;
                 line-height: 25px;
+                font-family: Manrope;
+                font-size: 18px;
+
                 &:hover {
                     transition: 0.6s ease;
                     opacity: 0.75;
@@ -92,7 +95,7 @@
                         color: #6E6E73;
                     }
                     li {
-                        width: 380px;
+                        // width: 380px;
                         font-weight: 700;
                     }
                     &-text {
@@ -113,6 +116,8 @@
                     }
                     &-list {
                         display: none;
+                        padding-left: 20px;
+                        padding-top: 20px;
                     }
                 }
             }
@@ -163,9 +168,9 @@
                 &-list {
                     padding: 20px;
                     &-item {
-                        li {
-                            width: 280px;
-                        }
+                        // li {
+                        //     width: 280px;
+                        // }
                         &-inner {
                             display: flex;
                             align-items: center;
@@ -208,13 +213,13 @@
         justify-content: center;
         padding: 20px;
         &__headline {
-            width: 240px !important;
+            // width: 240px !important;
+            margin-left: 0;
             word-break: break-word;
-            margin: 0 auto;
-            text-align: center;
+            text-align: left;
             // justify-content: center;
             padding: 30px 15px;
-            font-size: 36px;
+            font-size: 32px;
             font-weight: 700;
             line-height: 41px;
             align-items: center;
@@ -251,9 +256,9 @@
                 &-list {
                     padding: 20px;
                     &-item {
-                        li {
-                            width: 280px;
-                        }
+                        // li {
+                        //     width: 280px;
+                        // }
                         &-inner {
                             display: flex;
                             align-items: center;
@@ -289,6 +294,12 @@
                     }
                 }
             }
+        }
+    }
+    @media (max-width: 374px) {
+        &__headline {
+            font-size: 29px;
+            padding: 30px 0;
         }
     }
 }

@@ -1,6 +1,7 @@
 .how-it-works {
     background-color: #fff;
     border-radius: 50px;
+    margin-top: 150px;
     // margin: 145px -95px 0;
     // width: 1380px;
     height: 779px;
@@ -76,12 +77,13 @@
         // width: 100%;
         height: auto;
         &__headline {
+            margin-left: 0;
             font-size: 32px;
             font-weight: 700;
             line-height: 37px;
             margin-top: 50px;
             padding: 50px 20px;
-            width: 270px;
+            // width: 270px;
             text-align: left;
         }
         &__list {
@@ -95,6 +97,11 @@
                     margin-bottom: 36px;
                 }
             }
+        }
+    }
+    @media (max-width: 374px) {
+        &__headline {
+            font-size: 29px;
         }
     }
 }
