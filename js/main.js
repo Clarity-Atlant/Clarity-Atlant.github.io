@@ -100,12 +100,14 @@ window.addEventListener('resize', function(event) {
     }
 }, true);
 
-$(document).ready(function() {
-    $('.subscription__form-select').select2({
-        width: 600,
-        containerCssClass: 'test',
-    });
-});
+// $(document).ready(function() {
+//     $('.subscription__form-select').select2({
+//         placeholder: 'Выберите регион',
+//         // width: "100%",
+//         // dropdownParent: $(this).parent(),
+//         // minimumResultsForSearch: "-1",
+//     });
+// });
 
 // const example = new Choices(element, {
 //     addItemFilter: (value) => {

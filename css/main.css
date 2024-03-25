@@ -2228,21 +2228,6 @@ ul.timeline-mobile > li:before {
 .subscription__form label span {
   border-bottom: 1px solid #fff;
 }
-.subscription__form-wrapper {
-  position: relative;
-  padding: 5px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  color: #fff;
-  padding: 15px;
-  background-color: rgba(30, 30, 30, 0.15);
-  width: 590px;
-  height: 10px;
-  border: none !important;
-  border-radius: 53px;
-  margin-top: 15px;
-}
 .subscription__form-text-input {
   color: #fff;
   padding: 15px;
@@ -2368,17 +2353,52 @@ ul.timeline-mobile > li:before {
   }
 }
 
-.select2-container--default {
+.select-css {
   position: relative;
   padding: 5px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  padding: 15px;
+  color: #fff;
+  padding: 0 0 0 15px;
   background-color: rgba(30, 30, 30, 0.15);
   width: 590px;
-  height: 10px;
+  height: 30px;
   border: none !important;
   border-radius: 53px;
   margin-top: 15px;
+}
+
+.select-css:hover {
+  border-color: #888;
+}
+
+.select-css:focus {
+  border-color: #aaa;
+  -webkit-box-shadow: 0 0 1px 3px rgba(59, 153, 252, 0.7);
+          box-shadow: 0 0 1px 3px rgba(59, 153, 252, 0.7);
+  box-shadow: 0 0 0 3px -moz-mac-focusring;
+  outline: none;
+}
+
+.select-css:not([multiple]) {
+  padding-right: 1.2em;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 0.25em) 0.35em;
+  background-size: 0.85em auto;
+  background-image: url("../../img/select-arrow.svg");
+}
+
+.select-css option[selected] {
+  color: green;
+}
+
+.select-css option {
+  font-weight: normal;
+}
+
+*[dir=rtl] .select-css, :root:lang(ar) .select-css, :root:lang(iw) .select-css {
+  color: green;
+  background-position: left 0.7em top 50%, 0 0;
+  padding: 0.6em 0.8em 0.5em 1.4em;
 }/*# sourceMappingURL=main.css.map */

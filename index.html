@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -18,7 +17,8 @@
     <!-- <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/base.min.css"
-    /> -->
+        /> -->
+    <link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
     <div class="wrapper">
@@ -717,12 +717,12 @@
                         <label class="subscription__form-text-label" for="area">Какая площадь вашей агроплатформы?</label>
                         <input class="subscription__form-text-input" id="area" type="text" placeholder="Площадь">
                         <label class="subscription__form-text-label" for="region">Где находится ваша агроплатформа?</label>
-                        <div class="subscription__form-wrapper">
-                            <select class="subscription__form-select" name="state">
-                                <option>Тверь</option>
-                                <option>Москва</option>
-                            </select>
-                        </div>
+                        <select class="select-css" name="state">
+                            <option>Тверь</option>
+                            <option>Москва</option>
+                        </select>
+                        <!-- <div class="subscription__form-wrapper">
+                        </div> -->
                         <div class="subscription__form-privacy-policy">
                             <input class="subscription__form-privacy-policy-checkbox" id="privacy-policy" type="checkbox">
                             <label for="privacy-policy">Я согласен с <a href="#" class="subscription__form-privacy-policy-link">политикой конфиденциальности</a></label>
