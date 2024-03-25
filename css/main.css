@@ -2385,7 +2385,7 @@ ul.timeline-mobile > li:before {
   background-repeat: no-repeat;
   background-position: calc(100% - 0.25em) 0.35em;
   background-size: 0.85em auto;
-  background-image: url("../../img/select-arrow.svg");
+  background-image: url("./../img/select-arrow.svg");
 }
 
 .select-css option[selected] {
