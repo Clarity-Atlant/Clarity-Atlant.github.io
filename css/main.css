@@ -1132,9 +1132,12 @@ ul.timeline-mobile > li:before {
   left: 10px;
 }
 .intentions-mobile {
-  display: none !important;
+  display: none;
 }
 @media (max-width: 1024px) {
+  .intentions {
+    display: none;
+  }
   .intentions-mobile {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1142,7 +1145,6 @@ ul.timeline-mobile > li:before {
   }
   .intentions-mobile__item {
     text-decoration: none;
-    margin-left: 20px;
   }
   .intentions-mobile__item h3:hover {
     text-decoration: underline;

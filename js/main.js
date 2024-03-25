@@ -51,7 +51,7 @@ $(document).ready(function() {
         spaceBetween: 10,
     });
     const swiperIntentions = new Swiper('.swiper-intentions', {
-        width: 280,
+        width: 320,
         slidesPerView: 1.01,
         slidesPerColumn: 1.5,
         centeredSlides: true,

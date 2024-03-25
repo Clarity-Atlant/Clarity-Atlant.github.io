@@ -49,14 +49,15 @@
         }
     }
     &-mobile {
-        display: none !important;
+        display: none;
     }
     @media (max-width: 1024px) {
+        display: none;
         &-mobile {
             display: flex;
             &__item {
                 text-decoration: none;
-                margin-left: 20px;
+                // margin-left: 20px;
                 h3:hover {
                     text-decoration: underline;
                     text-decoration-color: white;
