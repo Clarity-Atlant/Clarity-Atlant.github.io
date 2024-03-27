@@ -46,7 +46,7 @@
         //     right: 10px;
         //     position: absolute;
         // }
-        &__select {
+        &-select {
             position: relative;
             // border-radius: 2px;
             padding: 5px;
@@ -61,25 +61,25 @@
             border-radius: 53px;
             margin-top: 15px;
         }
-        &__select:hover { border-color: #888; } 
-        &__select:focus { border-color: #aaa; 
+        &-select:hover { border-color: #888; } 
+        &-select:focus { border-color: #aaa; 
             box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
             box-shadow: 0 0 0 3px -moz-mac-focusring; 
             // color: green;
             // color: #222;
             outline: none; 
         } 
-        &__select:not([multiple]) {
+        &-select:not([multiple]) {
             padding-right: 1.2em;
             background-repeat: no-repeat;
             background-position: calc(100% - 1.25em) 0.95em;
             background-size: 0.85em auto;
             background-image: url("./../img/select-arrow.svg");
         }
-        &__select option[selected] {
+        &-select option[selected] {
             color: green;
         }
-        &__select option { font-weight:normal; } 
+        &-select option { font-weight:normal; } 
             *[dir="rtl"] .select-css, :root:lang(ar) .select-css, :root:lang(iw) .select-css { 
             color: green;
             background-position: left .7em top 50%, 0 0; 
