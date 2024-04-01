@@ -141,6 +141,7 @@ img {
 }
 
 .timeline-centered .timeline-entry {
+  margin-top: -20px;
   position: relative;
   width: 50%;
   float: right;
@@ -281,7 +282,6 @@ img {
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2, .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p {
-  width: 240px;
   color: #6E6E73;
   font-family: "Noto Sans", sans-serif;
   font-size: 16px;
@@ -295,6 +295,11 @@ img {
 
 .timeline-centered .timeline-entry:nth-child(odd) .timeline-entry-inner .timeline-label h2, .timeline-centered .timeline-entry:nth-child(odd) .timeline-entry-inner .timeline-label p {
   margin-left: auto;
+  text-align: right;
+}
+
+.timeline-centered .timeline-entry.left-aligned .timeline-entry-inner .timeline-label h2 {
+  text-align: right;
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p + p {
@@ -999,13 +1004,12 @@ ul.timeline-mobile > li:before {
 }
 .how-to-start__headline {
   margin: 0 auto;
-  width: 661px;
   font-size: 47px;
   font-weight: 700;
   line-height: 54px;
   text-align: center;
   padding-top: 45px;
-  padding-bottom: 50px;
+  padding-bottom: 115px;
   word-break: break-word;
 }
 .how-to-start__inner {
@@ -2214,7 +2218,7 @@ ul.timeline-mobile > li:before {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 105px;
+  margin-top: 85px;
 }
 .subscription__inner-headline {
   width: 449px;
@@ -2248,7 +2252,7 @@ ul.timeline-mobile > li:before {
   color: #fff;
   padding: 0 0 0 15px;
   background-color: rgba(30, 30, 30, 0.15);
-  height: 30px;
+  height: 50px;
   border: none !important;
   border-radius: 53px;
   margin-top: 15px;
@@ -2266,7 +2270,7 @@ ul.timeline-mobile > li:before {
 .subscription__form-select:not([multiple]) {
   padding-right: 1.2em;
   background-repeat: no-repeat;
-  background-position: calc(100% - 1.25em) 0.95em;
+  background-position: calc(100% - 1.75em) 1.75em;
   background-size: 0.85em auto;
   background-image: url("./../img/select-arrow.svg");
 }
@@ -2286,7 +2290,7 @@ ul.timeline-mobile > li:before {
   padding: 15px;
   background-color: rgba(30, 30, 30, 0.15);
   width: 590px;
-  height: 20px;
+  height: 50px;
   border: none !important;
   border-radius: 53px;
   margin-top: 15px;

@@ -137,6 +137,7 @@ img
     }
 
     .timeline-centered .timeline-entry {
+        margin-top: -20px;
         position: relative;
         width: 50%;
         float: right;
@@ -330,20 +331,24 @@ img
                 // }
 
                 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2, .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p {
-                    width: 240px;
+                    // width: 240px;
                     color: #6E6E73;
                     font-family: "Noto Sans",sans-serif;
                     font-size: 16px;
                     margin: 0;
                     line-height: 1.428571429;
                 }
+                
                 .timeline-centered .timeline-entry:nth-child(even) .timeline-entry-inner .timeline-label h2, .timeline-centered .timeline-entry:nth-child(even) .timeline-entry-inner .timeline-label p  {
                     margin-right: auto;
                 }
                 .timeline-centered .timeline-entry:nth-child(odd) .timeline-entry-inner .timeline-label h2, .timeline-centered .timeline-entry:nth-child(odd) .timeline-entry-inner .timeline-label p  {
                     margin-left: auto;
+                    text-align: right;
                 }
-
+                .timeline-centered .timeline-entry.left-aligned .timeline-entry-inner .timeline-label h2 {
+                    text-align: right;
+                }
                     .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p + p {
                         margin-top: 15px;
                     }
