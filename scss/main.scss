@@ -18,6 +18,10 @@ a {
 .container {
     width: 1380px;
     margin: 0 auto;
+    &--smaller {
+        width: 1380px;
+        margin: 0 auto;
+    }
     &--inner {
         width: 1190px;
         margin: 0 auto;
