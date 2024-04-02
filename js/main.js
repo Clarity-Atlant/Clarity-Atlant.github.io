@@ -67,6 +67,12 @@ $(document).ready(function() {
         mobileFirst: true,
         width: 330,
     });
+    $('.cards__item').mouseenter(function() {
+        $(this).addClass('cards__item--active');
+    });
+    $('.cards__item').mouseleave(function() {
+        $(this).removeClass('cards__item--active');
+    });
     $('.intentions__item-bottom-image').mouseenter(function() {
         $(this).find('img').attr('src', 'img/work-black.png')
     });

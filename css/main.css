@@ -452,6 +452,7 @@ ul.timeline-mobile > li:before {
   display: -ms-flexbox;
   display: flex;
   position: relative;
+  cursor: pointer;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
