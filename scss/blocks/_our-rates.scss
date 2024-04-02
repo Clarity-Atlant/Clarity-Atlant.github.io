@@ -59,14 +59,19 @@
             border-radius: 9px;
             background-color: #0DAA61;
             color: #fff;
+            font-weight: 400;
+            text-transform: uppercase;
         }
         &-short-description {
             width: 232px;
             font-size: 29px;
-            margin-top: 20px;
+            margin-top: 45px;
             font-weight: 700;
             line-height: 32px;
             color: #1E1E1E;
+        }
+        p {
+            margin-top: 20px;
         }
     }
     &-mobile {

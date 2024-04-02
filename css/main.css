@@ -32,6 +32,12 @@ a {
   width: 1190px;
   margin: 0 auto;
 }
+@media (max-width: 1799px) {
+  .container--smaller {
+    width: 1190px;
+    margin: 0 auto;
+  }
+}
 @media (min-width: 1800px) {
   .container {
     width: 1600px;
@@ -147,10 +153,11 @@ img {
 .timeline-centered .timeline-entry {
   margin-top: -20px;
   position: relative;
-  width: 50%;
-  float: right;
+  width: 100%;
   margin-bottom: 70px;
-  clear: both;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .timeline-centered .timeline-entry:before, .timeline-centered .timeline-entry:after {
@@ -175,13 +182,11 @@ img {
   margin-bottom: 0;
 }
 
-.timeline-centered .timeline-entry.left-aligned {
-  float: left;
-}
-
 .timeline-centered .timeline-entry.left-aligned .timeline-entry-inner {
   margin-left: 0;
-  margin-right: -3px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .timeline-centered .timeline-entry.left-aligned .timeline-entry-inner .timeline-time {
@@ -191,10 +196,17 @@ img {
 }
 
 .timeline-centered .timeline-entry.left-aligned .timeline-entry-inner .timeline-icon {
-  float: right;
+  position: absolute;
+  right: -3px;
+}
+
+.timeline-centered .timeline-entry.right-aligned .timeline-entry-inner .timeline-icon {
+  position: absolute;
+  left: -6px;
 }
 
 .timeline-centered .timeline-entry.left-aligned .timeline-entry-inner .timeline-label {
+  position: relative;
   margin-left: 0;
   margin-right: 70px;
 }
@@ -210,7 +222,11 @@ img {
 
 .timeline-centered .timeline-entry .timeline-entry-inner {
   position: relative;
-  margin-left: -7px;
+  margin-left: auto;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner:before, .timeline-centered .timeline-entry .timeline-entry-inner:after {
@@ -285,6 +301,10 @@ img {
   border-radius: 3px;
 }
 
+.timeline-label p {
+  padding-left: 40px;
+}
+
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2, .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p {
   color: #6E6E73;
   font-family: "Noto Sans", sans-serif;
@@ -299,11 +319,7 @@ img {
 
 .timeline-centered .timeline-entry:nth-child(odd) .timeline-entry-inner .timeline-label h2, .timeline-centered .timeline-entry:nth-child(odd) .timeline-entry-inner .timeline-label p {
   margin-left: auto;
-  text-align: right;
-}
-
-.timeline-centered .timeline-entry.left-aligned .timeline-entry-inner .timeline-label h2 {
-  text-align: right;
+  padding-left: 20px;
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p + p {
@@ -910,22 +926,23 @@ ul.timeline-mobile > li:before {
       flex-basis: 33%;
 }
 .how-it-works__list-item h3 {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size: 29px;
   font-weight: 700;
   line-height: 32px;
 }
 .how-it-works__list-item p {
+  margin-top: 10px;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
   color: #6E6E73;
 }
 .how-it-works__list-item:not(:first-child) {
-  margin-left: 50px;
+  margin-left: 100px;
 }
-.how-it-works__list-item:first-child img {
-  margin-bottom: 10px;
+.how-it-works__list-item img {
+  margin-bottom: 20px;
 }
 @media (min-width: 1800px) {
   .how-it-works {
@@ -1314,10 +1331,8 @@ ul.timeline-mobile > li:before {
   font-weight: 600;
   font-size: 29px;
 }
-.main-description__technologies-description-list-item :not(summary) {
-  color: #6E6E73;
-}
 .main-description__technologies-description-list-item li {
+  color: #6E6E73;
   font-weight: 700;
 }
 .main-description__technologies-description-list-item-text {
@@ -1662,14 +1677,19 @@ ul.timeline-mobile > li:before {
   border-radius: 9px;
   background-color: #0DAA61;
   color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 .our-rates__item-short-description {
   width: 232px;
   font-size: 29px;
-  margin-top: 20px;
+  margin-top: 45px;
   font-weight: 700;
   line-height: 32px;
   color: #1E1E1E;
+}
+.our-rates__item p {
+  margin-top: 20px;
 }
 .our-rates-mobile {
   display: none !important;
