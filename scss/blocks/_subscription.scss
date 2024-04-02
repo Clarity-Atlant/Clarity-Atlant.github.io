@@ -109,6 +109,7 @@
         }
         &-privacy-policy {
             position: relative;
+            padding: 20px 0 30px;
             &-link {
                 color: #fff !important;
                 padding-bottom: 1px;
@@ -125,6 +126,7 @@
                 border-radius: 50px;
                 display: inline-block;
                 position: relative;
+                margin-right: 10px;
             }
             &-checkbox:checked {
                 background-image: url('../img/checkbox-hover.png');
