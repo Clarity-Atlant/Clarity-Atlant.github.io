@@ -146,12 +146,15 @@
             line-height: 41px;
             align-items: center;
         }
-        @media (max-width: 767px) {
-            &__headline {
-                width: 310px;
-            }
-        }
+        // @media (max-width: 767px) {
+        //     &__headline {
+        //         width: 310px;
+        //     }
+        // }
         &__list {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
             padding: 0 20px;
             &-item {
                 flex-basis: auto;
@@ -159,6 +162,9 @@
                     color: #6E6E73;
                     width: 300px;
                 }
+            }
+            &-row {
+                flex-wrap: wrap;
             }
         }
         &__technologies {

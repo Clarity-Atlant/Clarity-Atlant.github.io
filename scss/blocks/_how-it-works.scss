@@ -51,6 +51,7 @@
     }
     @media (max-width: 1024px) {
         // width: 100%;
+        width: auto;
         height: auto;
         &__headline {
             font-size: 32px;
