@@ -51,6 +51,10 @@ a {
     width: 90%;
     margin: 0 auto;
   }
+  .container--smaller {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 
 .headline {
