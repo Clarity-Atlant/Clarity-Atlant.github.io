@@ -326,7 +326,6 @@ img {
 }
 
 .timeline-centered .timeline-entry:nth-child(odd) .timeline-entry-inner .timeline-label h2, .timeline-centered .timeline-entry:nth-child(odd) .timeline-entry-inner .timeline-label p {
-  margin-left: auto;
   padding-left: 20px;
 }
 
@@ -335,6 +334,7 @@ img {
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
+  color: #1E1E1E;
   font-size: 29px !important;
   font-weight: 700;
   line-height: 35px;
@@ -946,6 +946,10 @@ ul.timeline-mobile > li:before {
   font-weight: 700;
   line-height: 24px;
   color: #6E6E73;
+}
+.how-it-works__list-item-image {
+  width: 80px;
+  height: 80px;
 }
 .how-it-works__list-item:not(:first-child) {
   margin-left: 100px;
