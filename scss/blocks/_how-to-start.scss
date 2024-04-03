@@ -212,11 +212,12 @@
 //         }
 //     }
     @media (max-width: 575px) {
-        // padding-bottom: 170px;
+        padding-bottom: 50px;
         &__right {
             margin-top: -35px;
         }
         &__headline {
+            padding-bottom: 50px;
             font-size: 32px;
             font-weight: 700;
             line-height: 37px;

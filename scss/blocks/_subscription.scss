@@ -169,6 +169,7 @@
             // margin-left: 20px;
             padding: 20px;
             &-headline {
+                margin-top: 50px;
                 width: 320px;
                 font-size: 32px;
                 font-weight: 700;
@@ -192,6 +193,12 @@
                 margin: 30px auto 0;
                 width: 100%;
             }
+        }
+    }
+    @media (max-width: 575px) {
+        &__inner {
+            padding: 0;
+            margin: 0;
         }
     }
 }
