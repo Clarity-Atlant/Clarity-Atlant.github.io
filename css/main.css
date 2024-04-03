@@ -888,8 +888,8 @@ ul.timeline-mobile > li:before {
 @media (max-width: 1024px) {
   .header {
     position: fixed;
-    left: 0;
-    width: 89%;
+    left: 2%;
+    width: 96%;
     z-index: 10;
   }
   .header__logo {
@@ -1389,7 +1389,6 @@ ul.timeline-mobile > li:before {
   .main-description__headline {
     margin: 0 auto;
     text-align: center;
-    padding: 30px 15px;
     font-size: 36px;
     font-weight: 700;
     line-height: 41px;
@@ -1426,9 +1425,6 @@ ul.timeline-mobile > li:before {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .main-description__technologies-description {
-    padding: 20px;
   }
   .main-description__technologies-description-button {
     display: none;
@@ -1483,7 +1479,6 @@ ul.timeline-mobile > li:before {
     margin-left: 0;
     word-break: break-word;
     text-align: left;
-    padding: 30px 15px;
     font-size: 32px;
     font-weight: 700;
     line-height: 41px;
@@ -1517,9 +1512,6 @@ ul.timeline-mobile > li:before {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .main-description__technologies-description {
-    padding: 20px;
   }
   .main-description__technologies-description p {
     width: auto !important;
