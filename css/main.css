@@ -353,7 +353,7 @@ img {
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 span {
-  color: #0DAA61;
+  color: #1E8702;
 }
 
 ul.timeline-mobile {
@@ -381,7 +381,7 @@ ul.timeline-mobile > li:last-child {
 }
 
 ul.timeline-mobile > li > h2 > span {
-  color: #0DAA61;
+  color: #1E8702;
 }
 
 ul.timeline-mobile > li:before {
@@ -495,7 +495,7 @@ ul.timeline-mobile > li:before {
 }
 .cards__item--active {
   color: #fff;
-  background: #0DAA61;
+  background: #1E8702;
 }
 .cards-mobile {
   display: none !important;
@@ -1055,7 +1055,7 @@ ul.timeline-mobile > li:before {
   font-size: 29px;
   font-weight: 700;
   line-height: 32px;
-  color: #0DAA61;
+  color: #1E8702;
 }
 .how-to-start__item-name {
   font-size: 29px;
@@ -1147,7 +1147,7 @@ ul.timeline-mobile > li:before {
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
-  background-color: #0DAA61;
+  background-color: #1E8702;
   height: 224px;
   border-radius: 0 0 20px 20px;
   margin-top: -5px;
@@ -1207,7 +1207,7 @@ ul.timeline-mobile > li:before {
         -ms-flex-direction: column;
             flex-direction: column;
     position: relative;
-    background-color: #0DAA61;
+    background-color: #1E8702;
     height: 224px;
     border-radius: 0 0 20px 20px;
     margin-top: -5px;
@@ -1688,7 +1688,7 @@ ul.timeline-mobile > li:before {
   display: inline;
   padding: 10px;
   border-radius: 9px;
-  background-color: #0DAA61;
+  background-color: #1E8702;
   color: #fff;
   font-weight: 400;
   text-transform: uppercase;
@@ -1777,7 +1777,7 @@ ul.timeline-mobile > li:before {
     display: inline;
     padding: 10px;
     border-radius: 9px;
-    background-color: #0DAA61;
+    background-color: #1E8702;
     color: #fff;
   }
   .our-rates-mobile__item-short-description {
@@ -1838,7 +1838,7 @@ ul.timeline-mobile > li:before {
   color: #1E1E1E;
 }
 .possibilities__list-item--active {
-  background-color: #0daa61;
+  background-color: #1E8702;
   color: #fff;
 }
 .possibilities__list-item--active:visited {
@@ -2247,7 +2247,7 @@ ul.timeline-mobile > li:before {
 .subscription {
   width: 100%;
   height: 711px;
-  background-color: #0DAA61;
+  background-color: #1E8702;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
