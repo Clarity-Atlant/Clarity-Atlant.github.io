@@ -149,6 +149,9 @@
             font-weight: 700;
             line-height: 41px;
             align-items: center;
+            &--second {
+                width: auto;
+            }
         }
         // @media (max-width: 767px) {
         //     &__headline {
@@ -176,7 +179,7 @@
                 flex-direction: column;
             }
             &-description {
-                // padding: 20px;
+                padding: 0;
                 &-button {
                     display: none;
                     margin: 30px auto 0;
@@ -235,10 +238,14 @@
             text-align: left;
             // justify-content: center;
             // padding: 30px 15px;
+            padding-top: 0;
             font-size: 32px;
             font-weight: 700;
             line-height: 41px;
             align-items: center;
+            &--first {
+                padding: 20px;
+            }
         }
         @media (max-width: 767px) {
             &__headline {

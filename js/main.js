@@ -44,7 +44,7 @@ $(document).ready(function() {
         // }
     });
     const swiper = new Swiper('.swiper', {
-        width: 260,
+        width: 310,
         slidesPerView: 1.01,
         slidesPerColumn: 1.5,
         centeredSlides: true,
