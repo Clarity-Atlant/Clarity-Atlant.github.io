@@ -94,7 +94,12 @@ $(document).ready(function() {
     $('.promo__main-bottom-work-start').mouseleave(function() {
         $(this).find('img').attr('src', 'img/arrow.png');
     });
-
+    $('.mobile-menu-overlay__list-item a').click(function() {
+        $('.mobile-menu-overlay').removeClass('mobile-menu-overlay--active')
+        setTimeout(function() {
+            window.scrollBy(0, -100);
+        }, 500);
+    });
 });
 
 window.addEventListener('resize', function(event) {

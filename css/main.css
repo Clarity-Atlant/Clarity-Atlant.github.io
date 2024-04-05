@@ -1,4 +1,8 @@
 @charset "UTF-8";
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   font-family: Manrope;
   margin: 0;
@@ -1671,6 +1675,9 @@ ul.timeline-mobile > li:before {
   font-weight: 700;
   line-height: 24px;
 }
+.our-rates__item-inner img {
+  margin-top: 30px;
+}
 .our-rates__item-inner-price {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -1758,6 +1765,9 @@ ul.timeline-mobile > li:before {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 auto;
             flex: 1 1 auto;
+  }
+  .our-rates-mobile__item-inner img {
+    margin-top: 30px;
   }
   .our-rates-mobile__item-inner-price {
     display: -webkit-inline-box;
