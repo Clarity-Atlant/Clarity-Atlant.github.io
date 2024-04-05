@@ -461,7 +461,13 @@ img
                         display: none;
                     }
                 }
-                
+
+@media (max-width: 1024px) {
+    #precise-farming {
+        margin-top: 0 !important;
+    }
+}
+
 @import 'blocks/button.scss';
 @import 'blocks/cards.scss';
 @import 'blocks/footer.scss';

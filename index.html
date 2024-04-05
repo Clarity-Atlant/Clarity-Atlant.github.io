@@ -27,14 +27,14 @@
                 <img src="img/logo.png" alt="#">
             </div>
             <ul class="header__menu">
-                <li class="header__menu-item"><a href="#">О сервисе</a></li>
-                <li class="header__menu-item"><a href="#">Точное земледелие</a></li>
-                <li class="header__menu-item"><a href="#">Возможности</a></li>
-                <li class="header__menu-item"><a href="#">Цены</a></li>
+                <li class="header__menu-item"><a href="#how-it-works">О сервисе</a></li>
+                <li class="header__menu-item"><a href="#precise-farming">Точное земледелие</a></li>
+                <li class="header__menu-item"><a href="#possibilities">Возможности</a></li>
+                <li class="header__menu-item"><a href="#our-tariffs">Цены</a></li>
             </ul>
             <div class="header__buttons">
-                <a class="header__buttons-item button" href="#">Войти</a>
-                <a class="header__buttons-item button button--green" href="#">Регистрация</a>
+                <a class="header__buttons-item button" href="https://умножайурожай.рф/auth/sign_in">Войти</a>
+                <a class="header__buttons-item button button--green" href="https://умножайурожай.рф/auth/sign_in">Регистрация</a>
             </div>
             <div class="header__mobile-menu">
                 <img src="img/mobile-menu-burger.png" alt="#">
@@ -52,8 +52,8 @@
                                 <span class="promo__main-bottom-price-small">/ мес</span>
                             </div>
                             <div class="promo__main-bottom-work">
-                                <a class="promo__main-bottom-work-button button button--green" href="#">Попробовать бесплатно</a>
-                                <a href="#" class="promo__main-bottom-work-start">
+                                <a class="promo__main-bottom-work-button button button--green" href="#subscription">Попробовать бесплатно</a>
+                                <a href="#how-to-start" class="promo__main-bottom-work-start">
                                     <span>Как начать работу</span>
                                     <img class="promo__main-bottom-work-image" src="img/work.png" alt="#">
                                 </a>
@@ -250,7 +250,7 @@
                     </div>
                 </div>
             </div>
-            <div class="how-it-works">
+            <div id="how-it-works" class="how-it-works">
                 <h2 class="how-it-works__headline">Как работает Умножай Урожай?</h2>
                 <div class="how-it-works__list">
                     <div class="how-it-works__list-item how-it-works__list-item--active">
@@ -279,6 +279,7 @@
                     </div>
                 </div>
             </div>
+            <div id="possibilities" style="margin-top: -100px;"></div>
             <div class="container--inner">
                 <div class="possibilities">
                     <h2 class="possibilities__headline">Наши возможности</h2>
@@ -301,6 +302,22 @@
                             </div>
                             <div class="possibilities__image" data-number="4">
                                 <img src="img/possibilities.png" alt="#">
+                            </div>
+                        </div>
+                        <div class="possibilities__mobile-images swiper">
+                            <div class="swiper-wrapper">
+                                <div class="possibilities__image swiper-slide possibilities__image--active" data-number="1">
+                                    <img src="img/possibilities.png" alt="#">
+                                </div>
+                                <div class="possibilities__image swiper-slide" data-number="2">
+                                    <img src="img/possibilities.png" alt="#">
+                                </div>
+                                <div class="possibilities__image swiper-slide" data-number="3">
+                                    <img src="img/possibilities.png" alt="#">
+                                </div>
+                                <div class="possibilities__image swiper-slide" data-number="4">
+                                    <img src="img/possibilities.png" alt="#">
+                                </div>
                             </div>
                         </div>
                         <div class="possibilities__mobile-nav">
@@ -348,8 +365,9 @@
                             <h3>Журнал<br> севооборота</h3>
                             <p>Используйте рекомендации по севообороту и его историю для эффективного землепользования</p>
                         </div>
+                        <div id="precise-farming" style="margin-top: 200px;"></div>
                     </div>
-                </div>      
+                </div>
                 <div class="container--smaller">
                     <div class="main-description__technologies">
                         <h2 class="main-description__headline main-description__headline--second">Технология точного<br> земледелия от Умножай Урожай</h2>
@@ -421,6 +439,7 @@
                     </div>
                 </div>
             </div>
+            <div id="our-tariffs" style="margin-top: -100px;"></div>
             <div class="container--inner">
                 <h2 class="headline">Наши тарифы</h2>
                 <div class="our-rates">
@@ -509,7 +528,7 @@
                 </div>
             </div>
         </div>
-        <div class="how-to-start">
+        <div id="how-to-start" class="how-to-start">
             <div class="container">
                 <h2 class="how-to-start__headline">5 простых шагов, как начать<br> работу в агроплатформе</h2>
                 <!------ Include the above in your HEAD tag ---------->
@@ -734,7 +753,7 @@
                 </div> -->
             </div>
         </div>
-        <div class="subscription">
+        <div id="subscription" class="subscription">
             <div class="container">
                 <div class="subscription__inner">
                     <h2 class="subscription__inner-headline">Рассчитать подписку для вас</h2>
@@ -824,14 +843,14 @@
     </div>
     <div class="mobile-menu-overlay">
         <ul class="mobile-menu-overlay__list">
-            <li class="mobile-menu-overlay__list-item"><a href="#">О сервисе</a></li>
-            <li class="mobile-menu-overlay__list-item"><a href="#">Точное земледелие</a></li>
-            <li class="mobile-menu-overlay__list-item"><a href="#">Возможности</a></li>
-            <li class="mobile-menu-overlay__list-item"><a href="#">Цены</a></li>
+            <li class="mobile-menu-overlay__list-item"><a href="#how-it-works">О сервисе</a></li>
+            <li class="mobile-menu-overlay__list-item"><a href="#precise-farming">Точное земледелие</a></li>
+            <li class="mobile-menu-overlay__list-item"><a href="#possibilities">Возможности</a></li>
+            <li class="mobile-menu-overlay__list-item"><a href="#our-tariffs">Цены</a></li>
         </ul>
         <div class="mobile-menu-overlay__buttons">
-            <a class="mobile-menu-overlay__buttons-item button" href="#">Войти</a>
-            <a class="mobile-menu-overlay__buttons-item button button--green" href="#">Регистрация</a>
+            <a class="mobile-menu-overlay__buttons-item button" href="https://умножайурожай.рф/auth/sign_in">Войти</a>
+            <a class="mobile-menu-overlay__buttons-item button button--green" href="https://умножайурожай.рф/auth/sign_in">Регистрация</a>
         </div>
     </div>
     <script src="js/jquery-3.7.1.min.js"></script>

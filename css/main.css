@@ -410,6 +410,11 @@ ul.timeline-mobile > li:before {
     display: none;
   }
 }
+@media (max-width: 1024px) {
+  #precise-farming {
+    margin-top: 0 !important;
+  }
+}
 .button {
   line-height: 40px;
   border: 1px solid #1e1e1e;
@@ -1484,6 +1489,7 @@ ul.timeline-mobile > li:before {
         -ms-flex-pack: center;
             justify-content: center;
     padding: 20px;
+    margin-bottom: 100px;
   }
   .main-description__headline {
     margin-left: 0;
