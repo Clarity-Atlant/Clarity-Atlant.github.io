@@ -1891,6 +1891,9 @@ ul.timeline-mobile > li:before {
 .possibilities__mobile-nav {
   display: none;
 }
+.possibilities__mobile-images {
+  display: none;
+}
 @media (max-width: 1024px) {
   .possibilities__inner {
     -webkit-box-orient: vertical;
@@ -1957,6 +1960,12 @@ ul.timeline-mobile > li:before {
 @media (max-width: 575px) {
   .possibilities {
     text-align: left;
+  }
+  .possibilities__images {
+    display: none;
+  }
+  .possibilities__mobile-images {
+    display: block;
   }
   .possibilities__inner {
     -webkit-box-orient: vertical;

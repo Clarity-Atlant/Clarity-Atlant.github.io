@@ -58,6 +58,9 @@
     &__mobile-nav {
         display: none;
     }
+    &__mobile-images {
+        display: none;
+    }
     @media (max-width: 1024px) {
         &__inner {
             flex-direction: column;
@@ -111,6 +114,12 @@
     }
     @media (max-width: 575px) {
         text-align: left;
+        &__images {
+            display: none;
+        }
+        &__mobile-images {
+            display: block;
+        }
         &__inner {
             flex-direction: column;
         }
